@@ -48,7 +48,7 @@ const siteConfig = {
     },
 
     // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-    copyright: `Copyright © ${new Date().getFullYear()} Your Name Here`,
+    copyright: `Copyright © ${new Date().getFullYear()} Brandon M. Biggs`,
 
     highlight: {
         // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -68,7 +68,7 @@ const siteConfig = {
 
     socialMedia: {
         linkedin: 'brandon-biggs-1b41b619a',
-        twitter: 'treasuredquartz',
+        twitter: 'quartztreasured',
         github: 'waketechbrandon',
     },
 
