@@ -10,11 +10,11 @@ Video Game Development
 Character Concepts
 
 Overwatch:
-[Creed](../pages/en/characters/overwatch/creed.html)
-[Waylen](../pages/en/characters/oerwatch/waylen.html)
+[Creed](../en/characters/overwatch/creed.html)
+[Waylen](../en/characters/oerwatch/waylen.html)
 
 Brave Frontier:
-[MythicalDemonFrost](../characters/bravefrontier/frost.html)
-[CrimsonMetallicDragon](../characters/bravefrontier/crimsonmetallicdragon.html)
-[OriginOfEvil](../characters/bravefrontier/originofevil.html)
-[Xeldur](../characters/bravefrontier/xeldur.html)
+[MythicalDemonFrost](../en/characters/bravefrontier/frost.html)
+[CrimsonMetallicDragon](../en/characters/bravefrontier/crimsonmetallicdragon.html)
+[OriginOfEvil](../en/characters/bravefrontier/originofevil.html)
+[Xeldur](../en/characters/bravefrontier/xeldur.html)
