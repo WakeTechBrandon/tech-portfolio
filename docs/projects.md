@@ -14,7 +14,7 @@ Overwatch:
 [Waylen](../pages/en/characters/oerwatch/waylen.html)
 
 Brave Frontier:
-[MythicalDemonFrost](../pages/en/characters/bravefrontier/frost.html)
-[CrimsonMetallicDragon](../pages/en/characters/bravefrontier/crimsonmetallicdragon.html)
-[OriginOfEvil](../pages/en/characters/bravefrontier/originofevil.html)
-[Xeldur](../pages/en/characters/bravefrontier/xeldur.html)
+[MythicalDemonFrost](../characters/bravefrontier/frost.html)
+[CrimsonMetallicDragon](../characters/bravefrontier/crimsonmetallicdragon.html)
+[OriginOfEvil](../characters/bravefrontier/originofevil.html)
+[Xeldur](../characters/bravefrontier/xeldur.html)
