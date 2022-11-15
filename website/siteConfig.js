@@ -77,7 +77,7 @@ const siteConfig = {
     // repoUrl: 'https://github.com/facebook/test-site',
     
     wrapPagesHTML: true,
-    seperateCss [
+    seperateCss: [
         creed.html,
         waylen.html,
     ],
