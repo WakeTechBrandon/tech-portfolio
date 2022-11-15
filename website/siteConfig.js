@@ -77,6 +77,10 @@ const siteConfig = {
     // repoUrl: 'https://github.com/facebook/test-site',
     
     wrapPagesHTML: true,
+    seperateCss [
+        creed.html,
+        waylen.html,
+    ],
 };
 
 module.exports = siteConfig;
