@@ -78,8 +78,8 @@ const siteConfig = {
     
     wrapPagesHTML: true,
     seperateCss: [
-        '${baseUrl}en/characters/overwatch/creed.html',
-        // '${baseUrl}en/characters/overwatch/waylen.html',
+        '../en/characters/overwatch/creed.html',
+        '../en/characters/overwatch/waylen.html',
     ],
     
     stylesheets : [
