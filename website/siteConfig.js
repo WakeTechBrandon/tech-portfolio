@@ -78,16 +78,16 @@ const siteConfig = {
     
     wrapPagesHTML: true,
     seperateCss: [
-        // '${baseUrl}en/characters/overwatch/creed.html',
-        // '${baseUrl}en/characters/overwatch/waylen.html',
+        '${baseUrl}en/characters/overwatch/creed.html',
+        '${baseUrl}en/characters/overwatch/waylen.html',
     ],
     
     stylesheets : [
-        'https://overwatch.fandom.com',
-        {
-            href: 'https://overwatch.fandom.com/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=fandomdesktop',
-            type: 'text/css',
-        }
+        // 'https://overwatch.fandom.com',
+        // {
+        //    href: 'https://overwatch.fandom.com/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=fandomdesktop',
+        //    type: 'text/css',
+        // }
     ]
 };
 
