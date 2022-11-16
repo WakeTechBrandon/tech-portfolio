@@ -11,7 +11,7 @@ Character Concepts
 
 Overwatch:
 [Creed](../en/characters/overwatch/creed.html)
-[Waylen](../en/characters/oerwatch/waylen.html)
+[Waylen](../en/characters/overwatch/waylen.html)
 
 Brave Frontier:
 [MythicalDemonFrost](../en/characters/bravefrontier/frost.html)
