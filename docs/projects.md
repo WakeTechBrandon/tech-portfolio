@@ -17,10 +17,10 @@ title: Projects
 
 ### Brave Frontier:
 
-[Mythical Demon Frost](../en/characters/bravefrontier/frost.html)
+~~[Mythical Demon Frost](../en/characters/bravefrontier/frost.html)~~
 
-[Crimson Metallic Dragon](../en/characters/bravefrontier/crimsonmetallicdragon.html)
+~~[Crimson Metallic Dragon](../en/characters/bravefrontier/crimsonmetallicdragon.html)~~
 
-[Origin Of Evil](../en/characters/bravefrontier/originofevil.html)
+~~[Origin Of Evil](../en/characters/bravefrontier/originofevil.html)~~
 
-[Xeldur](../en/characters/bravefrontier/xeldur.html)
+~~[Xeldur](../en/characters/bravefrontier/xeldur.html)~~
