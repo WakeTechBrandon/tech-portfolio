@@ -3,28 +3,15 @@ id: about
 title: About
 ---
 
-I am currently attending GHC20 (Grace Hopper Celebration 2020). I began this portfolio in a workshop and it is the greatest idea ever!
-You can start your "About" page with an elevator pitch, one or two
-sentences about you! The rest of this page page can
-include a little bit about yourself. Some things you
-might include:
+I reside in the fantasy of driving the future of game development toward player involvment, inclusion, and interaction. Pushing the boundary of intuitive controls and player choice, every time a new playthrough is started for one of my games I want it to be as unique as possible. Enemies, allies, and goals should be determined by the context of the playthrough. In order of importance: Mechanics, Story, then Graphics.
 
-1. Your current position
-2. Organizations you're involved with
-3. Your personal and professional values
-4. Hobbies or fun facts
+Player actions are the driving force to a game's lifecycle, the determing factor in whether the player enjoys the experience and continues to play versus giving up and finding something better to spend their time on. A game should seek to satisfy the player as well as expand their range of experiences in life.
 
-Write it in first (I) or third (Your Name Here) person.
+> Currently working on an example project that can be used to showcase what I value in an experience when I start playing a new video game.
 
-> Don't know what to write? Get a good friend to help! Set some time aside to soundboard.
+## Game Taste
 
-## Current Role
-
-Grace Hopper Celebration Attendee
-
-## Recognition
-
-- 2020 Awesome Woman in Technology Award
+Borderlands, Destiny, Overwatch, Apex Legends, Call Of Duty, Elden Ring, Final Fantasy, Skyrim, Halo, Undertale, Ratchet And Clack, Kingdom Hearts, Star Fox, RType: Final, Metal Arms: Glitch In The System, Kid Icarus, Pokemon.
 
 ## Social Media
 
