@@ -11,7 +11,7 @@ The long awaited sequel to Overwatch, boasting robust Player-Versus-Enemy (PvE) 
 Releasing the Player-Versus-Player (PvP) experience worldwide without the PvE content.
 Essentially, Overwatch 2 is a direct engine update to the original and a PvP format change from 6-Players-Versus-6-Players (6v6) to 5-Players-Versus-5-Players (5v5).
 The original intention behind the transition from 6v6 to 5v5 was *Queue Times*, *Individual Agency*, and *Visual Clutter*.
-Amoung the many different systematic, role-specific, and individual hero changes established between the original Overwatch and the sequal; One hero in particular was moved to a different role.
+Amoung the many different systematic, role-specific, and individual hero changes established between the original Overwatch and the sequel; One hero in particular was moved to a different role.
 This character was: Doomfist.
 
 <!--truncate-->
