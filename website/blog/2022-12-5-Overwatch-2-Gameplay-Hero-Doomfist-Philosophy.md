@@ -130,6 +130,11 @@ Doomfist Power Block mitigates 80% of *most* frontal damage. Doom cannot perform
 
 #### Stealth nerfs
 
+Seismic Slam has become more consistent and has a larger area of effect, although a vastly lower amount of damage. 
+This is a very clear nerf to the previous ability. Originally, the ability was much smaller and targeted, bounced enemies toward Doom, and required high altitude for more damage creating "map-dependent" and "map-knowledge" slams.
+The larger radius draws more enemy aggression (agro), alerting the majority of the enemy team to Doom's position, which is a fantastic Tank ability (Drawing agro) and giving Overhealth per enemy damaged according to his passive.
+This ability would be incredible for a Tank character, if they had the health and armor to sustain the complete focus fire of the enemy team, but Doomfist has not been reworked to sustain damage like a Tank character.
+
 Unfortunately, Doomfist retained his Overwatch 1 passive values, giving him 30 Overhealth per enemy hit up to a maximum of 150 Overhealth. 
 This rework is a stealth nerf to Doomfist\'s passive in that removing his "Uppercut" and replacing it with a non-damaging ability has taken away from his Overhealth-Per-Second (OHPS) generation.
 "Power Punch"\'s rework to include "Multi-Punch," may possibly make-up for the OHPS lost with his Uppercut transaction to Power Block, but he still is missing a third OHPS generation ability.
@@ -148,6 +153,10 @@ Power Block damage mitigation inconsistency...
 
 Developer miscommunication or logic failure...
 > Power Block is Doomfist’s one and only defensive ability and for some reason operates very inconsistently when blocking damage. This is a bit of a combo issue as it is due to various bugs alongside the very unclear intentions of the developers on what can and cannot be blocked. A large majority of things that should realistically be able to be blocked cannot be blocked and some things that seem like they shouldn’t or wouldn’t be able to be blocked can be blocked, it’s unclear and unnecessarily restricted.[^3]
+
+As a "Tank" hero, Doomfist does not have the consistency of sustainability in fights. With registration issues on Seimic Slam alerting the enemy team, and not rewarding damage and Overhealth, Slam suddenly becomes a low-tier ability with near-no-value.
+Instead, canceling Slam with Power Block or charging Power Punch becomes much more effective by giving the benefits of a movement speed boost during these penealizing abilities. Slam effectively becomes a long cooldown to negate Doom's slow movement speed during his other two abilities.
+Power Block looks and sounds like a great defensive ability, if there wasn't unintuitive damage abilities that he can block and can't block.
 
 ### Issues conclusion
 
