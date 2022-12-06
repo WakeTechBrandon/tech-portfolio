@@ -19,15 +19,19 @@ This character was: Doomfist.
 ### Introduction
 
 Doomfist resided amongst the Damage roster alongside other characters such as Hanzo, Widowmaker, and the newly released hero: Sojourn.
-The trifecta of 
--Tank, 
--Damage, and 
--Support 
+The trifecta of
+
+- Tank, 
+- Damage, and 
+- Support
+
 that constantly persevere through video games has been long established since before the beginning of Overwatch 1 and were extended at it\'s conception.
-Each of these roles have prestablished abilities and playstyles that correspond to their parented job titles: 
--Tanking Damage, 
--Dealing Damage, and 
--Supporting Teammates.
+Each of these roles have preestablished abilities and playstyles that correspond to their parented job titles: 
+
+- Tanking Damage, 
+- Dealing Damage, and 
+- Supporting Teammates.
+
 With the format change from 6v6 to 5v5, the Tank role was given compensation-- for their now missing partner-- resulting in a single "Super Tank."
               
 ## DPS Doomfist
