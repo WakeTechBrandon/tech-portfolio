@@ -102,7 +102,7 @@ Hiding value behind "skill-walls" is not inherently bad. This gives players a ta
 
 The new Power Block ability does not compare well to other Tanks\' defensive ability(ies):
 ```
-- Reinhardt has a barrier that mitigates 100% of damage, has a large area that it blocks, but also cannot perform other actions. Barrier functions off a regenerating health pool and has no cooldown until broken. He is also slowed for it\'s duration.
+- Reinhardt has a barrier that mitigates 100% of damage, has a large area that it blocks, but also cannot perform other actions. Barrier functions off a regenerating health pool and has no cooldown until broken. He is also slowed for its duration.
 
 - Zarya has two barriers that last a set time, have a set pool of health, can be projected onto teammates, increase her damage when attacked, mitigate 100% of damage recieved, and cleanse negative debuffs. Duration is short and Cooldown is long, but two charges can be stored at a time and she can perform other actions while using it.
 
@@ -114,13 +114,13 @@ The new Power Block ability does not compare well to other Tanks\' defensive abi
 
 - D.Va has Defense-Matrix which deletes projectiles that are in her field-of-view, she can activate other abilities during it but cannot use her weapon, has a short duration and a shorter cooldown. Can also be inturrupted.
 
-- Sigma has a projected barrier that he can deploy that functions like Winston\'s barrier and Reinhardt\'s barrier. The barrier has no cooldowns until broken and can be withdrawn after deployment. He also has Kinetic Grasp that functions similar to D.Va\'s Defense Matrix, but has a longer duration, even longer cooldown, and generates Overhealth.
+- Sigma has a projected barrier that he can deploy that functions like Winstons barrier and Reinhardts barrier. The barrier has no cooldowns until broken and can be withdrawn after deployment. He also has Kinetic Grasp that functions similar to D.Vas Defense Matrix, but has a longer duration, even longer cooldown, and generates Overhealth.
 
-- Orisa has Fortify which negates all kncokback and stun effects, while also removing Headshot damage, generating 125 Overhealth on activation, grants 40% damage mitigation, and let\'s Orisa shoot her gun longer. Has a short duration and a long cooldown. Orisa also has Javelin spin which functions like D.Va\'s Defense Matrix but also negates melee damage, deals melee damage, and applies a movement buff to her. Has a very short duration and a long cooldown.
+- Orisa has Fortify which negates all kncokback and stun effects, while also removing Headshot damage, generating 125 Overhealth on activation, grants 40% damage mitigation, and lets Orisa shoot her gun longer. Has a short duration and a long cooldown. Orisa also has Javelin spin which functions like D.Vas Defense Matrix but also negates melee damage, deals melee damage, and applies a movement buff to her. Has a very short duration and a long cooldown.
 
 - JunkerQueen has Commanding Shout which provides 200 Overhealth, 50 Overhealth for teammates within range, and provides a movement speed buff to self and teammates. Has a short duration and a very long cooldown. She also can perform other actions during its duration.
 
-- Ramattra has a deployable barrier that functions like Winston\'s barrier once deployed. Has a short duration and a very long cooldown. Also has Nemesis form, which grants 150 armor, and unlocks access to Block which negates 50% of incoming frontal damage (Stacks with armor for 80%), and slows during usage, but can be interrupted (No cooldown or duration on Block). Has a long duration and a long cooldown.
+- Ramattra has a deployable barrier that functions like Winstons barrier once deployed. Has a short duration and a very long cooldown. Also has Nemesis form, which grants 150 armor, and unlocks access to Block which negates 50% of incoming frontal damage (Stacks with armor for 80%), and slows during usage, but can be interrupted (No cooldown or duration on Block). Has a long duration and a long cooldown.
 ```
 Doomfist Power Block mitigates 80% of *most* frontal damage. Doom cannot perform other actions during it and he can be inturrupted. He also slows himself for the duration which is short and the cooldown is long. After blocking enough damage his next Power Punch will be Empowered (doubled properties).
 
