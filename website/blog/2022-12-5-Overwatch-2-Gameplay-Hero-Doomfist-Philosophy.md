@@ -197,7 +197,7 @@ Seismic Slam used to "bounce" characters toward Doomfist, and Power Block does n
 - Damage range redistributed to be more consistently rewarding for landing the punch as opposed to the Wall Slam.
   - Impact from (15 - 30) to (25 - 50)
   - Wall Slam from (20 - 40) to (10 - 30)
-  - Combined damage range was (35 - 70) and is now (15 - 80)
+  - Combined damage range was (35 - 70) and is now (35 - 80)
 - Wall Slam stun added to regular punch, but subtracted from Empowered Punch
   - Regular wall slam stuns for 0.25s
     - This is closer to a Quality-Of-Life (QoL) change that allows for more consistent follow-up on all heros (Some heros could escape immediately and avoid follow-up)
