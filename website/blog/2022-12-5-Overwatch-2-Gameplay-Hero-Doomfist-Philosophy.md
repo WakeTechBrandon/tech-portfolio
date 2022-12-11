@@ -191,21 +191,122 @@ Seismic Slam used to "bounce" characters toward Doomfist, and Power Block does n
 - Power Block mitigates 100% of damage
 - Power Block is immune to all CC
 
+#### (Updated) Overwatch 2: Season 2 solution patch
+
+###### Rocket Punch
+- Damage range redistributed to be more consistently rewarding for landing the punch as opposed to the Wall Slam.
+  - Impact from (15 - 30) to (25 - 50)
+  - Wall Slam from (20 - 40) to (10 - 30)
+  - Combined damage range was (35 - 70) and is now (15 - 80)
+- Wall Slam stun added to regular punch, but subtracted from Empowered Punch
+  - Regular wall slam stuns for 0.25s
+    - This is closer to a Quality-Of-Life (QoL) change that allows for more consistent follow-up on all heros (Some heros could escape immediately and avoid follow-up)
+  - Empowered Wall slam reduced (0.25s - 0.75s)
+    - A fairly big nerf to the amount of time for aiming and firing follow-up primary shots. 
+- Empowered Punch knockback radius reduced from 4 to 3 meters.
+   - Massive nerf to the visual impact/feel and danger of Empowered Punch (Less likely wall slam means losing half the potential damage)
+
+###### Power Block
+- Cooldown reduced from 8 to 7 seconds
+- Duration increased from 2 to 2.5 seconds
+- Minimum damage mitigated required to empower Rocket Punch reduced from 90 to 80 damage
+The combination of lower cooldown and higher duration allows for more likely situations in which Empowered Punch is obtained. This is intentional of the patch, but I feel like this reduces the amount of "skill" required to "earn" an Empowered Punch, resulting in a similar situation to Zarya in that it is easy to walk into damage and obtain high charge. Empowered Punch becoming easier to obtain, but less impactful, defeats the purpose of hiding the extra potential behind a skill wall. Why make Empowered Punch easier to obtain in a single Block as opposed to retaining damage between blocks? Does maintained progress toward the next Empowered Punch too punishing for players who are intentionally not trying to feed him his power-up? By increasing the duration, Power Block has become punishing to players who choose not to damage him.
+
+###### Meteor Strike
+- Now empowers Rocket Punch on landing
+- Enemy slow duration increased from 2 to 3 seconds
+Both of these changes make Doomfist's ultimate more impactful and in-line with setting up potential follow-up, as well as dangerous to be targeted by. This also helps close the skill-gap required to earn Empowered Punch (Which seems not unhealthy at first glance.)
+
+###### The Best Defense...
+- Maximum temporary health increased from 150 to 200 health
+- Temporary health gained per target hit with abilities increased from 30 to 40 health
+This change is extremely welcome, but with the continued persistence of Slam Registration bugs, it is difficult to judge whether he needed the extra generation per ability. The maximum temporary health increase was excellent at a glance.
+
 ### My suggestions
-Uppercut was an essential ability reference to Fighting genre style games and the third ability required for a diverse combo-set, but restoring this ability and removing Power Block removes the previous solution for Doomfist\'s "skill-based" build-up for a One-Shot ability.
 
-- Rework Seismic Slam to deal 50 damage and perform the Uppercut animation on lift off. Put the ability on Cooldown when activated for 6 seconds, then add an additional 6 seconds if Doomfist lands without canceling the ability (Performing the Slam).
+###### Rocket Punch
+Removing the One-Shot potential of Punch was a necessary evil. Multi-Punch was also a good way to justify the redistribution of damage, and focus the "skill" of the ability closer to hitting close groups as opposed to loners. One of my favorite patches to Overwatch 1 included a change to the direction that Rocket Punch generated velocity (Multidirectional Punch). Multidirectional Punch generates an additional "skill ceiling" dimension to the ability, and forms a "skill-consistency" with the highly-skilled, map-knowledge, and position-based "Diagional Punch" ability. Diagional Punch involves the expliotation of map-geometry to force a "ledge" slightly below or above the hitbox of Rocket Punch creating the relevant upward or downward punch (based on position relative to ledge) while avoiding hitting the wall and stopping the Punch in its tracks. Now exclusive to Overwatch 2, Doomfist also can cancel his Seismic Slam by charging his Rocket Punch (Maintaining momentum) while mid-air; potentially a perfectly timed movement arc to allow a mid-air character to be punched (Which also is extremly skill-dependent).
 
+- Rocket Punch now functions consistently gliding along the ground (Doomfist always maintains a constant height above the ground during Punch, and will not be launched off of slopes. He will still be launched off ledges.)
+- Mid-Air Multidirectional Punch 
+  - When above a height threshold (Piledriver), Rocket Punch travels freely in the direction the camera is facing.
+- When Empowered Punch is available and Doomfist is Fully-Charged Mid-Air Punching directly downward, Doomfist will perform Meteor Strike.
+- Empowered Punch will punch Sigma's Accretion, and send it in the direction he is punching, as well as only affect Doomfist's enemies.
+- Empowered Punch will punch D.va's Bomb, and send it in the direction he is punching.
+
+###### Uppercut And Seismic Slam
+Uppercut was an essential ability reference to Fighting genre style games and the third ability required for a diverse combo-set, but restoring this ability and removing Power Block removes the previous solution for Doomfist\'s "skill-based" build-up for a One-Shot ability. This rework is the least drastic revert to Doomfist's ability kit (As opposed to re-enabling the third ability input to be Uppercut).
+
+- Rework Seismic Slam to deal 50 damage and perform the Uppercut animation on lift off at an appropriate camera dependent angle. 
+  - I want current Slam with cancellability, and current momentum when canceled. 
+  - The only change would be a straighter beginning upward arc while performing old Uppercut animation (but overall the same movement arc).
+- Add knockback to enemies when activated in a similar, but much reduced, arc to Doom's Movement arc .
+  - Enemies should be beneath Doomfist, not the same height, after finishing the Uppercut animation.
+- Put the ability on Cooldown when activated for 6 seconds.
+- Add an additional 6 seconds if Doomfist lands without canceling the ability (Performing the Slam).
+
+###### Power Block
 Power Block is not a hated ability by my terms at all and moving the ability to the backward input is another callback to the "Fighting-Game" genre in which characters would "block" when walking backward and performing a "frame-perfect" block resulted in a 100% damage mitigation for that attack. Power Block would be able to grab Orisa\'s Javelin, Hog\'s Hook, Queen\'s Knife and any other projectiles classified as "Melee" for the duration of that "Frame perfect" block.
 
-###### Power Block properties are maintained unless said otherwise.
 - Move Power Block to the backward input
 - Power Block now "Parries" which mitigates 100% frontal damage and reflects certain attacks for the first 0.7 seconds.
-- Power Parry successfully blocking 90 damage, or reflecting a "Melee Projectile" ends the current Power Block and resets the cooldown (Duration cuts in half for each success until 0.0166 seconds. Duration is reset after 1 second without Power Blocking or Power Parry fails))
+- Power Parry successfully blocking 75 damage, or reflecting a "Melee Projectile" ends the current Power Block and resets the cooldown (Duration cuts in half for each success until 0.0166 seconds. Duration is reset after 3 seconds without Power Blocking or Power Parry fails))
 - Power Parry has a 0.5 seconds reflect cast time (Doom catches Hog\'s hook and pulls him, catches Orisa\'s Javelin and throws it, catches Queen\'s Jagged Blade and throws it)
 - Power Block mitigates 10% frontal damage after being held for 0.7 seconds.
-- Power Block has the same cooldown but only triggers after no longer holding the input.
+- Power Block now extends around Doom's sides (More forgiving and consistent mitigation, Less forgiving back exposure)
+- Power Block has no cooldown, but Power Parry is always put on cooldown for 3 seconds after releasing input.
 - Current Power Block on damaged effects are only played during Power Parry.
+
+###### Meteor Strike
+This has been the hardest part of Doomfist's kit to rethink for a better fit for him in his new Tank role. Meteor Strike has been a long standing joke of an ultimate  (ult) ability; boasting a high damage center, but a significant fall-off damage toward the edges. Initially, this ult landed too quickly resulting in "free" kills against no-mobility supports, but as the landing speed slowed and cooldown reduction effects were added, the ultimate slowly became a "tempo" ability that was reserved as a "get-out-of-jail card" that allowed Doomfist to expand all his abilities and then choose to escape the fight or stay with renewed cooldowns (And maybe recieve a kill). Tankfist has tacked on a slow effect while not changing anything else about the ability. Removing the ability from being tied to the ultimate allows it to be weaker overall (although more niche to obtain) but create a miniture arena cut-off from most enemies. Creates division in the enemy team, sets up walls for potential punch wall slams and a relatively safe opening to potentially use his new ultimate without getting cancelled.
+
+Functionality Changes:
+- This ability has been moved to a Fully-Charged Empowered Mid-Air Downward Punch.
+- Creates a ring of debris (functions similar to Mei's Ice Wall) that is jump height (must be climbed over, too high to Hook or Javelin Doomfist inside.), and has a radius around the total area affected.
+- Now Pins heros underneath Doomfist (intended for Mid-Air opponents)
+- Ability Cooldown reduction removed.
+- No longer considered an ultimate
+- No longer has a cast time
+- Continues until landed, death, or maintaining the same location for at least 0.5 seconds.
+- Enemies are now grounded instead of slowed
+
+Statistic Changes:
+- Enemies are grounded for 4 seconds.
+- Enemies in the Inner Ring are knocked down for 0.75 seconds.
+- Damage:
+  - Inner Ring: 120
+  - Outer Ring: 60
+- Falloff range: 2 - 8 meters.
+- Area-Of-Effect: 
+  - Inner Ring: 2 meters
+  - Outer Ring: 6 meters
+  - Overall Diameter: 8 meters
+
+###### ...Is The Best Offense.
+Doomfist's new ultimate ability is named in referrence to his passive ability "The Best Defense..." and seeks to provide the previous functionality of Meteor Strike without taking him out of the fight, maintaining his ability tempo, and giving him a chance to be stunned while offering a higher sense of participation in the team fight.
+
+- Can be cancelled during cast time, but cannot be cancelled afterward.
+- Cast time is 0.9 seconds.
+  - "Come at me!"
+  - Grants Empowered Punch after casting
+  - Passive Overhealth generates at 100 health per 0.1 seconds
+    - Does not decay during cast time.
+  - Cannot move or perform abilities during cast (maintains momentum)
+  - Can activate to cancel other abilities
+- Duration is 11 seconds.
+- While Doomfist has Overhealth during his ultimate:
+  - Doomfist’s ability cooldown rates are accelerated by 100%.
+  - Rocket Punch charges 50% faster and abilities deal 50% more damage.
+- Passive Changes: 
+  - Increases the Maximum Temporary Health to 900 for duration
+  - Increases Overhealth generated by abilities to 75 for each enemy hit.
+  - Overhealth decay is now 0.1 seconds for duration
+    - Dealing more ability damage will reset this condition.
+  - Overhealth decay rate is 40 health per second for duration. 
+
+
+
+
 
 
 
