@@ -210,16 +210,19 @@ Seismic Slam used to "bounce" characters toward Doomfist, and Power Block does n
 - Cooldown reduced from 8 to 7 seconds
 - Duration increased from 2 to 2.5 seconds
 - Minimum damage mitigated required to empower Rocket Punch reduced from 90 to 80 damage
+
 The combination of lower cooldown and higher duration allows for more likely situations in which Empowered Punch is obtained. This is intentional of the patch, but I feel like this reduces the amount of "skill" required to "earn" an Empowered Punch, resulting in a similar situation to Zarya in that it is easy to walk into damage and obtain high charge. Empowered Punch becoming easier to obtain, but less impactful, defeats the purpose of hiding the extra potential behind a skill wall. Why make Empowered Punch easier to obtain in a single Block as opposed to retaining damage between blocks? Does maintained progress toward the next Empowered Punch too punishing for players who are intentionally not trying to feed him his power-up? By increasing the duration, Power Block has become punishing to players who choose not to damage him.
 
 ###### Meteor Strike
 - Now empowers Rocket Punch on landing
 - Enemy slow duration increased from 2 to 3 seconds
+
 Both of these changes make Doomfist's ultimate more impactful and in-line with setting up potential follow-up, as well as dangerous to be targeted by. This also helps close the skill-gap required to earn Empowered Punch (Which seems not unhealthy at first glance.)
 
 ###### The Best Defense...
 - Maximum temporary health increased from 150 to 200 health
 - Temporary health gained per target hit with abilities increased from 30 to 40 health
+
 This change is extremely welcome, but with the continued persistence of Slam Registration bugs, it is difficult to judge whether he needed the extra generation per ability. The maximum temporary health increase was excellent at a glance.
 
 ### My suggestions
