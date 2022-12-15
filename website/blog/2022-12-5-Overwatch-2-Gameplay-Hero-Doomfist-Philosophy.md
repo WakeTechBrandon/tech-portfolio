@@ -191,6 +191,7 @@ Seismic Slam used to "bounce" characters toward Doomfist, and Power Block does n
 - Power Block mitigates 100% of damage
 - Power Block is immune to all CC
 - Power Block also Empowers Seismic Slam
+- Power Block functions on a resource meter. Carrying blocked damage across uses (Similar to D.Va's Defense-Matrix)
 
 ### The Overwatch Team's solution
 #### (Updated) Overwatch 2: Season 2 solution patch
