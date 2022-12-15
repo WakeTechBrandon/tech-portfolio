@@ -190,9 +190,10 @@ Seismic Slam used to "bounce" characters toward Doomfist, and Power Block does n
 - Power Block to be moved to another input (Crouch) and to bring Uppercut back.
 - Power Block mitigates 100% of damage
 - Power Block is immune to all CC
+- Power Block also Empowers Seismic Slam
 
+### The Overwatch Team's solution
 #### (Updated) Overwatch 2: Season 2 solution patch
-
 ###### Rocket Punch
 *For referrence: Empowered Punch deals 50% more damage, not 100% more damage*
 - Damage range redistributed to be more consistently rewarding for landing the punch as opposed to the Wall Slam.
@@ -226,7 +227,6 @@ Both of these changes make Doomfist's ultimate more impactful and in-line with s
 
 This change is extremely welcome, but with the continued persistence of Slam Registration bugs, it is difficult to judge whether he needed the extra generation per ability. The maximum temporary health increase was excellent at a glance.
 
-
 #### (Update 2) Overwatch 2: Season 2 Hot-fix
 ###### Rocket Punch
 - Cooldown increased to 4 seconds (was 3)
@@ -237,9 +237,7 @@ This change is extremely welcome, but with the continued persistence of Slam Reg
 ###### The Best Defense...
 - Temporary health gained per target hit with abilities reduced to 35 from 40 health
 
-
 ### My suggestions
-
 ###### Rocket Punch
 Removing the One-Shot potential of Punch was a necessary evil. Multi-Punch was also a good way to justify the redistribution of damage, and focus the "skill" of the ability closer to hitting close groups as opposed to loners. One of my favorite patches to Overwatch 1 included a change to the direction that Rocket Punch generated velocity (Multidirectional Punch). Multidirectional Punch generates an additional "skill ceiling" dimension to the ability, and forms a "skill-consistency" with the highly-skilled, map-knowledge, and position-based "Diagional Punch" ability. Diagional Punch involves the expliotation of map-geometry to force a "ledge" slightly below or above the hitbox of Rocket Punch creating the relevant upward or downward punch (based on position relative to ledge) while avoiding hitting the wall and stopping the Punch in its tracks. Now exclusive to Overwatch 2, Doomfist also can cancel his Seismic Slam by charging his Rocket Punch (Maintaining momentum) while mid-air; potentially a perfectly timed movement arc to allow a mid-air character to be punched (Which also is extremly skill-dependent).
 
