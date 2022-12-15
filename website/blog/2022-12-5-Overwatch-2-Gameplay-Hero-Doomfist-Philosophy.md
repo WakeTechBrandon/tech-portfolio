@@ -329,12 +329,11 @@ Functionality Changes:
 - Enemies are now grounded instead of slowed
 
 Statistic Changes:
-- Enemies are knocked down for 0.75 seconds (Fully-charged-punch wall-slam stun time)
+- Enemies in the Inner Ring are knocked down for 0.75 seconds (Fully-charged-punch wall-slam stun time)
 - Enemies are grounded for 4 seconds.
-- Enemies in the Inner Ring are knocked down for 0.75 seconds.
 - Damage:
   - Inner Ring: 160 (Empowered-Punch Fully-Charged plus wall-slam damage)
-  - Outer Ring: 80
+  - Outer Ring: 80 (Half the Inner-ring's damage) (Single value, regardless of distance.)
 - Falloff range: 2 - 8 meters.
 - Area-Of-Effect: 
   - Inner Ring: 2 meters
@@ -342,16 +341,17 @@ Statistic Changes:
   - Overall Diameter: 8 meters
 
 ###### ...Is The Best Offense.
-Doomfist's new ultimate ability is named in referrence to his passive ability "The Best Defense..." and seeks to provide the previous functionality of Meteor Strike without taking him out of the fight, maintaining his ability tempo, and giving him a chance to be stunned while offering a higher sense of participation in the team fight.
+Doomfist's new ultimate ability is named in referrence to his passive ability "The Best Defense..." and seeks to provide the previous functionality of Meteor Strike without taking him out of the fight, maintaining his ability tempo, and giving him a chance to be stunned while offering a higher sense of impact in the team fight.
 
 During Casting:
-- Can be cancelled during cast time, but cannot be cancelled afterward.
+- Can be interrupted during cast time, but cannot be interrupted afterward.
 - Cast time is 0.9 seconds.
   - "Come at me!"
-  - Grants Empowered Punch after casting
-  - Passive Maximum Temporary Health increased to 900 for 0.9 seconds
+  - Grants Empowered Punch after casting and refunds Rocket Punch if on cooldown.
+  - Passive Maximum Temporary Health increased to 900
   - Passive Overhealth generates at 100 health per 0.1 seconds for 0.9 seconds
     - Does not decay during cast time.
+    - Overhealth default functionality is restored on Ultimate end.
   - Cannot move or perform abilities during cast (maintains momentum)
   - Can activate to cancel other abilities
 
