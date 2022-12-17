@@ -170,7 +170,7 @@ The playstyles of Doomfist have retained their Damage role "Aerial Assassination
 
 Doomfist was originally shifted to the Tank role because of his crowd-control playstyle and Tanks have been decreeded as the role which is allowed stuns, and knockbacks etc.
 The dev team likely also sought a solution for his One-Shot ability that frustrated players on the other side of it.
-Finaly, the developers have openly come out to addressing "hard-countering" and it\'s place in Overwatch 2:
+Finally, the developers have openly come out to addressing "hard-countering" and it\'s place in Overwatch 2:
 > “One of the big differences with 5v5 combat is that we’ve tuned a lot of the heroes in the game, and we’ve made changes to reduce the amount of hard counters that Overwatch has,” Keller said. “We want the game to be a little bit more organic. We want people to have more impact, but we also want them to have more freedom in what hero they’re choosing for any particular situation.[^4]
 
 "Counter-swapping" was a very clear intended mechanic in Overwatch 1, and giving Doomfist more HP (for his relatively large hitbox) and more mobility reduces the "counterability" of close-range spread weapons as well as reducing the lock-out duration for Sombra\'s hack and prevalance of other stuns.
