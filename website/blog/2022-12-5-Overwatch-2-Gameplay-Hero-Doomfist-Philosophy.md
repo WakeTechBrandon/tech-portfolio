@@ -322,9 +322,9 @@ Uppercut was an essential ability reference to Fighting genre style games and th
 Power Block is objectively a terrible defensive abilty for a "Tank" character to have. It is selfish and does not protect teammates, and the only excellent part is powering up when it is successful. Power Block would be able to grab Orisa\'s Javelin, Hog\'s Hook, Queen\'s Knife and any other projectiles classified as "Melee" for the duration of that "Frame perfect" block.
 
 - Power Block has 8s Cooldown (Season 1)
-- Power Block has 2.5s Duration (Season 1)
+- Power Block has 2.5s Duration (Season 2)
 - Power Block now mitigates 100% frontal damage and reflects certain attacks for the first 0.7 seconds. See "Power Parry" below.
-  - Power Block instead mitigates 10% frontal damage after being held for 0.7 seconds, and can no longer award Empowered Punch.
+  - Power Block instead mitigates 50% frontal damage after being held for 0.7 seconds, and can no longer award Empowered Punch.
 - Power Block now extends around Doom's sides (More forgiving and consistent mitigation, Less forgiving back exposure)
 - Power Block removes line-of-sight for players behind Doomfist during Power Block.
 - Power Block now body-blocks damage from attacks.
