@@ -353,6 +353,7 @@ Functionality Changes:
     - 8 pillars
   - Debris lasts up to 5 seconds
 - Now Pins any mid-air heros inside the inner ring underneath Doomfist when casting.
+- Outer ring is now a singular value for damage regardless of distance: 75 Damage
 
 #### My fantasy rework
 ###### Power Block (Fanatasy Change)
@@ -412,7 +413,7 @@ After Casting:
     - Dealing more ability damage will reset this condition.
   - Overhealth decay rate is 100 health per second
 
-###### Wait, what would happed to Meteor Strike then?
+###### Wait, what would happen to Meteor Strike then?
 - No longer considered an ultimate
 - This ability has been moved to a Empowered Fully-Charged Mid-Air Downward Punch.
 - Ability Cooldown reduction removed.
