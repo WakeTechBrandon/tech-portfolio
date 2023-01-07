@@ -7,6 +7,13 @@ title: A Passionate Love letter to an Abusive Game
 
 # Overwatch
 
+Overwatch is a team-based hero-shooter that released as a skeleton of a game and has been gradually developed into a welcoming AAA title.
+The artistic style of the game is spot-on beautiful, and the lore allows for diversity in the roster to the point of a grizzeled old military veteren playing alongside a tesla-toting Gorilla and a cyborg ninja.
+In no other game before this would one even remotely imagine playing a First-Person game with this diverse a roster with unique abilities, sizes, weapons, and movement capabilities.
+Who could possibly turn down an invitation into such an inviting world; featuring such intense and diverse gameplay?
+
+<!--truncate-->
+
 ## What was Overwatch 1 Like?
 
 ### July 19th, 2016 - November 4th, 2016:
