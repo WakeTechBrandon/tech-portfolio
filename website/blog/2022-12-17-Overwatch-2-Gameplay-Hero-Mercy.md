@@ -1,3 +1,10 @@
+---
+id: Mercy Philosophy
+author: Brandon M. Biggs
+authorURL: https://waketechbrandon.github.io/tech-portfolio/
+title: Mercy's Problematic Design
+---
+
 # Overwatch 2
 
 ## Mercy
