@@ -43,20 +43,20 @@ There is no incentive to play the game.
 Your individual performance did not matter.
 
 - Playing your own game alone and apart from the team, left your team at such a disadvantage that you typically lost the match.
- - This means that often you could play worse, but win because you played with your team.
+  - This means that often you could play worse, but win because you played with your team.
 - Playing the objective meant you lost the match.
- - Camping the objective allows the enemy team to take advantagous positions.
- - Camping the objective puts your team at a disadvantage if your team pushes up or falls back without you.
+  - Camping the objective allows the enemy team to take advantagous positions.
+  - Camping the objective puts your team at a disadvantage if your team pushes up or falls back without you.
 - It doesn't matter how good you are, if no one on your team plays a support.
- - You can't hold positions for very long without having to fall back (or just die) from poke damage.
- - You have no sustain to keep control over positions (Such as the objective)
+  - You can't hold positions for very long without having to fall back (or just die) from poke damage.
+  - You have no sustain to keep control over positions (Such as the objective)
 
 The hero you play had a massive effect on the match.
 
 - Heros were massively under-performant compared to other heros
- - Not even mentioning all heros had massive disadvantages when playing against other heros, some just objectively did worse in the majority of situations.
+  - Not even mentioning all heros had massive disadvantages when playing against other heros, some just objectively did worse in the majority of situations.
 - This is not referring to All tanks being objectively better than Damage/Attack heros, but that Rein/Winston/Dva were better than Roadhog. Mercy, Ana, were better than Zenyatta or Lucio.
- - This also is referring to 2016 Overwatch.
+  - This also is referring to 2016 Overwatch.
 
 After these realizations, I climbed to Diamond and over the course of every season I travel between Gold to Diamond and back again depending on whether I follow the invisible "how-to-win" rules or not.
 The foremost of these complaints was addressed with the addition of Arcade to the traditional line-up of game modes, expanding the number of ways to play the game and eventually adding a weekly-win-based-lootbox incentive to play.
