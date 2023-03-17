@@ -330,6 +330,11 @@ Removing the One-Shot potential of Punch was a necessary evil. Multi-Punch was a
 - Empowered Punch will prevent Doomfist from being knocked-down unless it is another Empowered Punch.
   - The target will still be knocked-down and neaby enemies within the knockback radius will be knocked back as normal.
 
+###### Multi Punch rework
+The AoE effect for Rocket Punch is unintuitive. When Team 4 released showcases of AI enemies knocking each other back for PvE, I had assumed that this was the technology begin used for Doom's Empowered Punch AoE mechanic. However, when an enemy is impacted by Punch, and AoE cone is created that instantaneously is applied to all enemies within it. I disagree with this implementation and would rather see a use of additional knockback instead being generated from collision with the initially knocked-back players.
+
+[![Chain Hit Reactions](https://img.youtube.com/vi/lRj-GotnNaQ/maxresdefault.jpg)](https://youtube.com/clip/UgkxoVnAyZlTP4PR7gj-YAKg9n8riT5ggves)
+
 
 ###### Uppercut And Seismic Slam
 Uppercut was an essential ability reference to Fighting genre style games and the third ability required for a diverse combo-set, but restoring this ability and removing Power Block removes the previous solution for Doomfist\'s "skill-based" build-up for a One-Shot ability. This rework is the least drastic revert to Doomfist's ability kit (As opposed to re-enabling the third ability input to be Uppercut).
