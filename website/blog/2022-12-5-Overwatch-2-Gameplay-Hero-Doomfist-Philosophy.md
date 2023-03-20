@@ -308,7 +308,13 @@ Removing the One-Shot potential of Punch was a necessary evil. Multi-Punch was a
 |-|-|-|
 | Impact Damage | 30 | 50 |
 | Wall Slam Damage | 2x | 2x |
-| Wall Slam Falloff | 3 meters (1.5 for Tanks) | 7 meters (4.5 for Tanks) |
+| Wall Slam Falloff | begins 0.2s after impact | begins 0.2s after impact |
+| Move Speed (Doomfist) | 44 meters per second | 44 meters per second |
+| Move Speed (Enemies) | 15 meters per second (10.5m for Tanks) | 35 meters per second (24.5m for Tanks) |
+| Max Range (Doomfist) | ~6.4 meters | 20 meters |
+| Max Range (Enemies) | 6 meters | 14 meters |
+| Duration (Impact Stun) | 0.4 seconds| 0.4 seconds |
+| Duration (Wall Slam Stun) | 0.25 seconds (0 after 0.2 seconds) | 0.5 seconds (0.25 after 0.2 seconds) |
 
 - Rocket Punch damage is 30 - 50.
 - Wall Slam damage is also 30 - 50. (Rocket Punch damage is doubled by Wall Slam essentially)
