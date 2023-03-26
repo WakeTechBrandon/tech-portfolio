@@ -2,7 +2,7 @@
 id: Mercy Philosophy
 author: Brandon M. Biggs
 authorURL: https://waketechbrandon.github.io/tech-portfolio/
-title: Mercy's Problematic Design
+title: Overwatch 2 Monetization
 ---
 
 # Overwatch 2
