@@ -70,6 +70,7 @@ const siteConfig = {
         linkedin: 'brandon-biggs-1b41b619a',
         twitter: 'quartztreasured',
         github: 'waketechbrandon',
+        youtube: 'treasuredquartz',
     },
 
     // You may provide arbitrary config keys to be used as needed by your
