@@ -15,6 +15,8 @@ title: Projects
 
 [Waylen](../en/characters/overwatch/waylen.html)
 
+[Maximilien](../en/characters/overwatch/maximilien.html)
+
 ### Brave Frontier:
 
 ~~[Mythical Demon Frost](../en/characters/bravefrontier/frost.html)~~
