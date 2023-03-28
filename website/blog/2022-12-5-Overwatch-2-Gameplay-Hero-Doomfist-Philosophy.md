@@ -300,6 +300,10 @@ The Primary Fire also retained a lot of functionality between reworks. In the ef
 - Now visually resemble a singular Hudeken before individual pellets begin shrinking.
 - Larger pellet Hitboxes
 - Shrink as they travel over distance
+- 7 pellets total
+- 10 damage per pellet
+- Can no longer headshot
+- Deals increased damage against armor (16- Torb's Molten Core Ultimate is a 1.6x multiplier)
 
 ###### Rocket Punch
 Removing the One-Shot potential of Punch was a necessary evil. Multi-Punch was also a good way to justify the redistribution of damage, and focus the "skill" of the ability closer to hitting close groups as opposed to loners. One of my favorite patches to Overwatch 1 included a change to the direction that Rocket Punch generated velocity (Multidirectional Punch). Multidirectional Punch generates an additional "skill ceiling" dimension to the ability, and forms a "skill-consistency" with the highly-skilled, map-knowledge, and position-based "Diagional Punch" ability. Diagional Punch involves the expliotation of map-geometry to force a "ledge" slightly below or above the hitbox of Rocket Punch creating the relevant upward or downward punch (based on position relative to ledge) while avoiding hitting the wall and stopping the Punch in its tracks. Now exclusive to Overwatch 2, Doomfist also can cancel his Seismic Slam by charging his Rocket Punch (Maintaining momentum) while mid-air; potentially a perfectly timed movement arc to allow a mid-air character to be punched (Which also is extremely skill-dependent).
