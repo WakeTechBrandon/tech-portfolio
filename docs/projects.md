@@ -11,18 +11,18 @@ title: Projects
 
 ### Overwatch:
 
-[Creed](../en/characters/overwatch/creed.html)
+[Creed](./static/characters/overwatch/creed.html)
 
-[Waylen](../en/characters/overwatch/waylen.html)
+[Waylen](./static/characters/overwatch/waylen.html)
 
-[Maximilien](../en/characters/overwatch/maximilien.html)
+[Maximilien](./static/characters/overwatch/maximilien.html)
 
 ### Brave Frontier:
 
-~~[Mythical Demon Frost](../en/characters/bravefrontier/frost.html)~~
+~~[Mythical Demon Frost](./static/characters/bravefrontier/frost.html)~~
 
-~~[Crimson Metallic Dragon](../en/characters/bravefrontier/crimsonmetallicdragon.html)~~
+~~[Crimson Metallic Dragon](./static/characters/bravefrontier/crimsonmetallicdragon.html)~~
 
-~~[Origin Of Evil](../en/characters/bravefrontier/originofevil.html)~~
+~~[Origin Of Evil](./static/characters/bravefrontier/originofevil.html)~~
 
-~~[Xeldur](../en/characters/bravefrontier/xeldur.html)~~
+~~[Xeldur](./static/characters/bravefrontier/xeldur.html)~~
