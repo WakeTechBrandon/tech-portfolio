@@ -13,6 +13,14 @@
 				-webkit-box-sizing: inherit;
 				box-sizing: inherit;
 			}
+
+			a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, time, tt, u, ul, var, video {
+				border: 0;
+				font: normal normal normal 100% inherit;
+				margin: 0;
+				padding: 0;
+				vertical-align: baseline;
+			}
 			
 			.page-content ul {
 				list-style-type: disc;
@@ -58,7 +66,7 @@
 			}
 			
 			.main-container {
-			background-image: "GoldOverwatchLogo";
+			background-image: url("../../../img/GoldOverwatchLogo");
 			background-size: cover;
 			background-position: top center;
 			background-repeat: no-repeat;
@@ -363,7 +371,9 @@
 								<div style="flex:1 1 450px; word-wrap:break-word;">
 									<i>Details:</i>
 									<ul>
-										<li> Liquidated Assets earn rate: 5 per second.</li>
+										<li> Max always spawns with 500 Cash on hand.</li>
+										<li> Maximilen has a 100% discount on all Cash uses until the round begins.</li>
+										<li> Liquidated Assets earn rate: 1% per second</li>
 										<li> Final Blow Cash bonus: 500 </li>
 										<li> Maximum Cash: 10,000 </li>
 									</ul>
@@ -408,13 +418,9 @@
 										<div style="display:flex; flex-direction:column; width:100%;">
 											<div style="display:inline-flex">
 												<div style="padding:5px 5px; font-size:85%; text-align:center; border-bottom:1px solid white; width:100%">
-													<div style="display:table-cell; width:50%; vertical-align:top;">
-														<b><u>Type</u></b>
-														<div style="display:block; padding-top:5px;">
-															Weapon
-														</div>
-													</div>
-													<div style="display:table-cell; width:50%; vertical-align:top;">
+													<b><u>Type</u></b>
+													<div style="display:block; padding-top:5px;">
+														Weapon
 													</div>
 												</div>
 											</div>
@@ -455,7 +461,7 @@
 												<b>Cash Bonus</b>:
 											</div>
 											<div style="display:inline-block;"> 
-												200 Cash
+												250 Cash
 											</div>
 										</div>
 										<div style="display:block;">
@@ -474,7 +480,8 @@
 								<div style="flex:1 1 450px; word-wrap:break-word;">
 									<i>Details:</i>
 									<ul>
-                    
+										<li>Quick melee and alternate fire can be used without disrupting the call.</li>
+										<li>Calling using this phone requires 16 seconds before rewarding as much cash as the passive cash bonus.</li>
 									</ul>
 								</div>
 							</div>
@@ -516,13 +523,13 @@
 										<div style="display:flex; flex-direction:column; width:100%;">
 											<div style="display:inline-flex">
 												<div style="padding:5px 5px; font-size:85%; text-align:center; border-bottom:1px solid white; width:100%">
-													<div style="display:table-cell; width:50%; vertical-align:top;">
+													<div style="display:inline-block; width:49%; vertical-align:top;">
 														<b><u>Type</u></b>
 														<div style="display:block; padding-top:5px;">
 															Weapon
 														</div>
 													</div>
-													<div style="display:inline-block; width:50%; vertical-align:top;">
+													<div style="display:inline-block; width:49%; vertical-align:top;">
 														<b><u>Effect Type</u></b>
 														<div style="display:block; padding-top:5px;">
 															<a href="/wiki/Hitscan" title="Hitscan">
@@ -532,6 +539,7 @@
 																Hitscan
 															</span>
 														</div>
+													</div>
 														<div style="display:flex; justify-content:center; column-gap:4px; padding-top:5px; padding-bottom:5px;">
 															<div class="abilityImage" style="display:inline-block; width:32px; height:32px;">
 																<div style="position:absolute;">
@@ -595,104 +603,108 @@
 															</div>
 														</div>
 													</div>
-												<div style="vertical-align:top; font-size:85%;">
-													<i> 
-														Maximilian uses a luxurious portable phone to manage his finances that also has alternative functionality as an integrated-suppresser bolt-action 9mm firearm.
-													</i>
 												</div>
-											</div>
-										</div>
-										<div style="padding:5px;">
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b><span style="cursor:help; border-bottom:1px dotted" title="Single value: No damage falloff based on distance. Two values: Damage at close range and damage at maximum damage falloff.">
-														Damage
-													</span></b>
-													:
-												</div>
-												<div style="display:inline-block;"> 
-													7.5 - 75 <br>
-												</div>
-											</div>
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b><span style="cursor:help; border-bottom:1px dotted" title="Distances at which damage falloff starts, and when it stops.">
-														Fall-off range
-													</span></b>
-													:
-												</div>
-												<div style="display:inline-block;"> 
-													15 - 35 meters
-												</div>
-											</div>
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b><span style="cursor:help; border-bottom:1px dotted" title="Inaccuracy of the weapon, or angle of area-of-effect abilities (if applicable).">
-														Spread angle
-													</span></b>
-													:
-												</div>
-												<div style="display:inline-block;"> 
-													Constant 0.33 degrees
-												</div>
-											</div>
-											<div style="display:block;">
-											</div>
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b>Rate of fire</b>:
-												</div>
-												<div style="display:inline-block;"> 
-													1 shot every 0.7 seconds
-												</div>
-											</div>
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b>Ammo</b>:
-												</div>
-												<div style="display:inline-block;"> 
-													3
-												</div>
-											</div>
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b>Reload Time</b>:
-												</div>
-												<div style="display:inline-block;"> 
-													1 second animation
-												</div>
-											</div>
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b>Cash Cost</b>:
-												</div>
-												<div style="display:inline-block;"> 
-													100 per bullet
-												</div>
-											</div>
-											<div style="display:block;">
-												<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-													<b>Headshot</b>:
-												</div>
-												<div style="display:inline-block;"> 
-													✓;
-												</div>
-											</div>
-											<div style="vertical-align:bottom; font-size:85%; border-top: 1px solid white; margin-top:5px;">
-												<i> An integrated silencer 9mm firearm. </i>
+											<div style="vertical-align:top; font-size:85%;">
+												<i> 
+													Maximilian uses a luxurious portable phone to manage his finances that also has alternative functionality as an integrated-suppresser bolt-action 9mm firearm.
+												</i>
 											</div>
 										</div>
 									</div>
-									<div style="flex:1 1 450px; word-wrap:break-word;">
-										<i>Details:</i>
-										<ul>
-											<li>Reloading Maximilian's phone is expensive.</li>
-											<li>1 bullet costs 100 cash. A full reload costs 300 cash.</li>
-											<li>Maximilian's suppressed gun is significantly quieter than other Heroes' weapons.</li>
-										</ul>
+									<div style="padding:5px;">
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b><span style="cursor:help; border-bottom:1px dotted" title="Single value: No damage falloff based on distance. Two values: Damage at close range and damage at maximum damage falloff.">
+													Damage
+												</span></b>
+												:
+											</div>
+											<div style="display:inline-block;"> 
+												10 - 30 <br>
+											</div>
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b><span style="cursor:help; border-bottom:1px dotted" title="Distances at which damage falloff starts, and when it stops.">
+													Fall-off range
+												</span></b>
+												:
+											</div>
+											<div style="display:inline-block;"> 
+												15 - 35 meters
+											</div>
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b><span style="cursor:help; border-bottom:1px dotted" title="Inaccuracy of the weapon, or angle of area-of-effect abilities (if applicable).">
+													Spread angle
+												</span></b>
+												:
+											</div>
+											<div style="display:inline-block;"> 
+												Constant 0.33 degrees
+											</div>
+										</div>
+										<div style="display:block;">
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b>Rate of fire</b>:
+											</div>
+											<div style="display:inline-block;"> 
+												1 shot every 0.49 seconds
+											</div>
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b>Ammo</b>:
+											</div>
+											<div style="display:inline-block;"> 
+												5
+											</div>
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b>Reload Time</b>:
+											</div>
+											<div style="display:inline-block;"> 
+												0.89 second animation
+											</div>
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b>Cash Cost</b>:
+											</div>
+											<div style="display:inline-block;"> 
+												100 per bullet when realoding
+											</div>
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b>Headshot</b>:
+											</div>
+											<div style="display:inline-block;"> 
+												✓;
+											</div>
+										</div>
+										<div style="vertical-align:bottom; font-size:85%; border-top: 1px solid white; margin-top:5px;">
+											<i> An integrated silencer 9mm firearm. </i>
+										</div>
 									</div>
 								</div>
+								<div style="flex:1 1 450px; word-wrap:break-word;">
+									<i>Details:</i>
+									<ul>
+										<li>A futuristc version of the B&T VP9.</li>
+										<li><img src="https://i.ytimg.com/vi/LzPVYglh5xs/maxresdefault.jpg" style="height: 144px; width: 256px;"></li>
+										<li>The swap weapon animation is of Max attaching a barrel with an integrated-suppressor to the top of the phone.</li>
+										<li>Reloading Maximilian's phone is expensive.</li>
+										<li><ul><li>1 bullet costs 100 cash. A full reload costs 300 cash.</li></ul></li>
+										<li>Maximilian's suppressed gun is significantly quieter than other Heroes' weapons.</li>
+									</ul>
+								</div>
 							</div>
+						</div>
 						<p>
 							<br>
 							<span id="Coin Toss"></span>
@@ -756,12 +768,12 @@
 										<div style="display:block;">
 											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
 											<b><span style="cursor:help; border-bottom:1px dotted" title="No damage falloff based on distance. Successive hits on a single target deal less damage (50 40 30 20 10 = 150 total single target.).">
-												Damage
+												Damage Reflected
 											</span></b>
 											:
 											</div>
 											<div style="display:inline-block;">
-												Reflected
+												100% (Does not increase between coins.)
 											</div>
 										</div>
 										<div style="display:block;">
@@ -788,21 +800,37 @@
 										</div>
 										<div style="display:block;">
 											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
-												<b>Cooldown</b>
+												<b>Rate Of Fire</b>
 												:
 											</div>
 											<div style="display:inline-block;"> 
-												0.3 seconds
+												4 coins per second
+											</div>
+										</div>
+										<div style="display:block;">
+											<div style="display:inline-block; vertical-align:top; padding-right:3px;">
+												<b>Cash Cost</b>
+												:
+											</div>
+											<div style="display:inline-block;"> 
+												10 per coin
 											</div>
 										</div>
 									</div>
 								</div>
 								<div style="flex:1 1 450px; word-wrap:break-word;"><i>Details:</i>
 									<ul>
-                    								[![Watch This Video](https://staticdelivery.nexusmods.com/mods/4124/images/thumbnails/2665/2665-1666677566-1061104819.png)](https://www.reddit.com/r/Ultrakill/comments/iqh0fy/coin_trick/)
+                    					<li>
+											<a href="https://www.reddit.com/r/Ultrakill/comments/iqh0fy/coin_trick/"> 
+												<img src="https://staticdelivery.nexusmods.com/mods/4124/images/thumbnails/2665/2665-1666677566-1061104819.png">
+											</a><!-- Watch This Video](https://staticdelivery.nexusmods.com/mods/4124/images/thumbnails/2665/2665-1666677566-1061104819.png)](https://www.reddit.com/r/Ultrakill/comments/iqh0fy/coin_trick/) -->
+										</li>
 										<li>Friendly or hostile hitscan, Maximilien's quick melee, or another friendly coin can interact with the coin.</li>
-										<li>If the coin takes damage, it will target the closest coin or enemy (whichever is closest to the coin) and instantly travel to the target deaing damage.</li>
-										<li>Damage dealt to the coin will be added to the coin's impact damage. A 1.25x multiplier is applied to damage taken from another coin.</li>
+										<li>If the coin takes damage, it stores that damage to be dealt to its target multiplied by the stored damage multiplier.</li>
+										<li>The coin will always target the weakpoint of its selected target.</li>
+										<li>Coin Targeting Logic: Coin > Enemies > Turrets > Immortality Field.</li>
+										<li>After targeting and damaging an enemy, the coin will bounce straight up as an oppurtunity to be shot again.</li>
+										<li>Damaging the coin without a valid target will bounce the coin.</li>
 									</ul>
 								</div>
 							</div>
@@ -946,9 +974,9 @@
 								<div style="flex:1 1 450px; word-wrap:break-word;">
 									<i>Details:</i>
 									<ul>
-										<li>Holding the input will activate targeting, release without a seleceted target to use on self.</li>
+										<li>Holding the input will activate targeting, release without a selected target to use on self.</li>
                     					<li>Allies under the effect of Injection cannot be targeted by the ability again until its duration ends.</li>
-										<li>Using primary or alternate fire will cancel targeting.</li>
+										<li>Using primary or alternate fire will cancel targeting without firing.</li>
 									</ul>
 								</div>
 							</div>
@@ -1033,11 +1061,12 @@
 								<div style="flex:1 1 450px; word-wrap:break-word;">
 									<i>Details:</i>
 									<ul>
-										<li><ul>Hold the ability and press another input to select an enhancement.
+										<li>Hold the ability and press another input to select an enhancement.<li>
+										<ul>
 											<li>Primary Fire: Bullets are now 3D printed by Max's Phone. Reloads don't cost Cash.</li>
-											<li>Alternate Fire: Passive generates cash 2x as fast. Flicks 2 coins for the price of 1.</li>
-											<li>Injection: No longer a targeted ability but an Area-Of-Effect with a 7 meter radius deployed at Max's location and heals 50% of max health over 8 seconds instead of instantly. Enemies are dealt 10 damage per second while inside the area. Retains the effect 1 second after leaving the area.</li>
-										</ul></li>
+											<li>Alternate Fire: Passive generates cash 2x as fast. Coins can potentially split and target two enemies instead of one.</li>
+											<li>Injection: No longer a targeted ability, but an Area-Of-Effect with a 7 meter radius deployed at Max's location and heals 100% of max health over 8 seconds instead of instantly. Enemies are dealt 10 damage per second while inside the area. Retains the effect 1 second after leaving the area.</li>
+										</ul>
 										<li>Releasing the input without an ally targeted will cancel the ability.</li>
 									</ul>
 								</div>
@@ -1125,7 +1154,7 @@
 												:
 											</div>
 											<div style="display:inline-block;"> 
-												+50% buff
+												+100% buff
 											</div>
 										</div>
 										<div style="display:block;">
@@ -1134,7 +1163,7 @@
 												:
 											</div>
 											<div style="display:inline-block;"> 
-												-50% Buff
+												+50% Buff
 											</div>
 										</div>
 										<div style="display:block;">
@@ -1188,7 +1217,8 @@
 									<i>Details:</i>
 									<ul>
 										<li>Allies affected by Maximilien's ultimate will activate his Passive Cash Bonus when eliminating an enemy.</li>
-										<li></li>
+										<li>Max can only carry a maximum of 10,000 Cash which is converted to 2000 ultimate charge and then divided amoungst surrounding allies</li>
+										<li><ul><li>So the max ult charge granted would be 2000 to 1 ally or 500 to 4 allies.</li></ul></li>
 									</ul>
 								</div>
 							</div>
