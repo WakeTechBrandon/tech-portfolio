@@ -17,13 +17,96 @@ Battlepass grants 4 cosmetics every level up.
 
 Every tier has both premium and free rewards.
 
+Earning a new battlepass tier has the same animation as lootbox openings with an additional coin being added for each additional cosmetic in the tier.
+
+### New Battlepass: Legacy Pass
+
 There are now Legacy Passes. 
 - Every Overwatch 1 item has been removed from the shop and is in 6 new legacy passes that each cost $10.
 - Overwatch 2 passes enter the legacy pass shop after 1 year.
 - Only one Legacy Pass can be active while the seasonal pass is active.
 - You cannot earn Prestige Pass rewards from legacy passes.
 
-- Earning a new battlepass tier has the same animation as lootbox openings with an additional coin being added for each additional cosmetic in the tier.
+### New Cosmetic Rewards
+
+With the requirement to match the level of cosmetics from Overwatch 1 per Battlepass tier, more cosmetics are required to fulfill that need.
+
+#### Expanded Title Customization
+
+- Actual Text Content
+- Materials
+  - Common: White, Black, Red, Green, Blue
+  - Rare: Gradient and RGB color wheel (Choose your own color)
+  - Epic: Metal, Emissive
+  - Legendary: Shifting Materials (Moving gradient)
+- Special Effects
+  - Epic: Wavy, Pixelized, Shift L->R
+  - Legendary: Fire, Sparks, Beating Hearts
+
+#### Battle Portraits
+[!Apex Legends Battle Portrait Example Image](ApexLegends_WatsonPortrait.png)
+
+- 2 possible directions
+  - Scoreboard:
+    - Allow the portrait to the right of the scoreboard to change depending on selected player in match.
+  - Quick Career Profile:
+    - Popup when selecting a player's name card.
+- Several different backgrounds.
+  - Common: Solid colors
+  - Rare: Gradients, Metals
+  - Epic: King's Row, Hanamura, Locations
+  - Legendary: Hero Artwork, Fire, moving backgrounds
+- Border
+  - Common: Solid colors
+  - Rare: Gradients, Metals
+  - Epic: Moving/Vines/Bubbles/Break rectangular frame effect
+- Content
+  - Epic: Hero Poses
+  - Legendary: Hero Highlight Intros/Animated Heroes
+- Multiple career specific rewards available to display such as:
+  - current rank
+  - season high
+  - career high
+  - other in-game challenge rewards.
+
+## News Reel
+
+With the introduction of the news reel in S3, this opens up massive in-game opportunities for gathering/providing data/information voluntarily from/to real players. 
+
+### Weekly Survey
+
+A survey that players may click on within the News Reel.
+
+"How do you feel about the latest patch?"
+- I Feel Good
+- I Feel Neutral
+- I Feel Bad
+
+"After this patch, how do you feel about the heroes in the game? (You do not need to select every hero, click "next" when satisfied.)"
+- *Heroes Icon Display Screen*
+  - Clicking on an icon brings up the following checkboxes:
+    - Is more fun to play?
+    - Is more fun to play with?
+    - Is fair to play against?
+  - Any additional comments about this hero:
+    - Free form empty text box to type a max of 500 words.
+
+Clicking next will display a results screen that shows a graph of every player's answers plotted as a graph. 
+- x-coord=time
+- y-coord=survey answers
+- viewing option for whole player base or color coded seperate lines per rank.
+
+After submitting their answers for the day, players cannot change them until logging in the next day.
+
+### Developer communication
+
+A link will be available in the news reel that connects to the latest dev blog.
+
+Daily tweets may show up in the news reel as well.
+
+#### Compensation for severe mistakes
+
+Players will recieve in-game currency (not skins) when a DDOS or otherwise substantial issue arises that affactes Overwatch and is out of the players' hands such as server issues, game-breaking bugs (A hero needs to be disabled), etc.
 
 # Balance Update
 
@@ -32,12 +115,13 @@ There are now Legacy Passes.
 ## All heros
 
 50 more HP for all 250 and under heroes.
+10% increase to ultimate costs for all heroes.
 
 ### Supports
 
 Supports have off-screen-ally icons that appear on the edges of the screen (can be switched on/off/only critical allies in settings)
 
-Supports also can see all allies health bars above their own (can be switched onoff in settings.)
+Supports also can see all allies' health bars above their own (can be switched on/off in settings.)
 
 #### Kiriko
 
@@ -120,7 +204,7 @@ More precise hitbox, and blue bullets
 - Is now Ultimate Ability
 - Now all allies around Baptiste are prevented from losing HP
 - Hacking Baptiste will deploy the Immortality Field at Baptiste's location
-- Using the ultimate again will deploy the Immortality field  as normal for remaining duration.
+- Using the ultimate again will deploy the Immortality field as normal for remaining duration.
 - Duration is increased to 15s
 - Immortality Field (deployed) Health increased to 350 from 150.
 - Area-Of-Effect increased to 10m
@@ -150,6 +234,33 @@ More precise hitbox, and blue bullets
 ##### New Role Passive: Damage Cascade
 - Damaging a hero increases damage against that hero for 2s. Stacks with itself.
 
+#### Tank
+
+##### Role Passive: 
+- 30% Knockback Resistance.
+- -30% Ultimate Charge Generated on Damaged/Healed.
+- 50% Damage Amplification Resistance.
+- 50% Stun Duration Reduction.
+
+#### Doomfist
+
+##### Power Block
+- Split into two parts
+  - Power Parry during first second of activation
+  - Power Block after Power Parry ends
+- No Longer awards Empowered Punch
+- 50% Damage reduction
+- 30% self-slow
+- Infinte Duration
+
+##### Power Parry
+- Fortified Effect
+- Has 100 Damage Blocked Threshold
+  - Awards Empowered Punch
+  - Ends the ability with no cooldown
+  - Halves Power Parry's current Duration for 3 seconds
+- Duration 1 second
+- Cooldown 4 seconds
 
 
 
