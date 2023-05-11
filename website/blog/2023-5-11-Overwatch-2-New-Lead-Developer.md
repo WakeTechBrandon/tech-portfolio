@@ -2,7 +2,7 @@
 id: New Lead Developer
 author: Brandon M. Biggs
 authorURL: https://waketechbrandon.github.io/tech-portfolio/
-title: Overwatch 2: New Lead Developer
+title: Overwatch 2 New Lead Developer
 ---
 
 # Prompt
