@@ -85,7 +85,7 @@ Animated backgrounds and hero speficic name cards. Some could even be glowing et
 
 Replace Daily and Weekly challenges with "missions" from a faction. Either Talon or Overwatch and menu aestetics change depending on the faction.
 
-[![Hero Factions Example Image](../../../../img/Talon_Daily_Missions.png)](https://youtu.be/fEMef4--7uE)
+[![Hero Factions Example Image](../../../../img/Talon_daily_missions.png)](https://youtu.be/fEMef4--7uE)
 
 There can be a global board that shows the amount of faction challenges completed for each faction, showing off how much of the world is supporting Talon vs supporting Overwatch.
 
