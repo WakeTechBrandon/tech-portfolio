@@ -347,7 +347,12 @@ Sombra deals more damage to revealed targets and detects critically injured enem
 - Can now be aimed upward
 - Cooldown reduced to 3s from 4s
 - Max Damage on Impact reduced to 40 was 50.
-- Wall Slam Damage and stun time scales with knockback distance.
+- Wall Slam damage is now consistent with impact damage
+- Charged Wall Slam Damage and stun time scales with knockback distance.
+  - After 0.2s (Rocket Punch Impact Enemy stun duration is 0.4s), Stun Time and Wall Slam damage will fall-off until minimum damage and time.
+  - This means there is no seperate stun time. 
+    - If an enemy hits a wall before the impact stun duration is over (0.4s), then they are stunned for the rest of the impact stun duration.
+    - Empowered Punch adds 0.6s to the stun time after fall-off.
 
 ##### Power Block
 - Split into two parts
