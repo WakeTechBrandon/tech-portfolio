@@ -371,8 +371,15 @@ Sombra deals more damage to revealed targets and detects critically injured enem
   - After 0.2s (Rocket Punch Impact Enemy stun duration is 0.4s), Stun Time and Wall Slam damage will fall-off until minimum damage and time.
   - This means there is no seperate stun time. 
     - If an enemy hits a wall before the impact stun duration is over (0.4s), then they are stunned for the rest of the impact stun duration.
-    - Empowered Punch adds 0.6s to the stun time after fall-off.
 - Players that cannot be knocked back now take the additional wall-slam damage.
+
+##### Empowered Punch
+- Punching DVa's bomb will send it in Doom's Direction.
+- Punching Sigma's Accretion will destroy the rock
+- Doomfist can no longer be knocked down by Reinhardt's Charge, Brigitte's Shield Bash, or Doomfist's Rocket Punch.
+  - Two Empowered Punches will knock each other down while also applying the enlarged hitbox.
+  - The other player will be knocked down as normal and unaffected by the knockback and damage of the punch.
+  - The larger hitbox will still activate and affect all players behind the knockeddown player.
 
 ##### Power Block
 - Split into two parts
@@ -391,8 +398,6 @@ Sombra deals more damage to revealed targets and detects critically injured enem
   - Ends the ability with no cooldown
   - Halves Power Parry's next Duration for 3 seconds (Stack up to 16 times.)
 - Duration 1 second
-
-#### Zarya
 
 
 
