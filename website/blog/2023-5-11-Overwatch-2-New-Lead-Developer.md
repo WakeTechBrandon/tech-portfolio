@@ -294,9 +294,9 @@ More precise hitbox, and blue bullets
 - Overhealth Maximum is half the target's Maximum Health.
 - Cooldown reduced to 3s from 6s.
 
-#### Damage 
+### Damage 
 
-##### New Role Passive: Damage Cascade
+#### New Role Passive: Damage Cascade
 - Damaging a hero increases damage against that hero for 2s. Stacks with itself.
 
 #### Sombra
@@ -335,9 +335,9 @@ Sombra deals more damage to revealed targets and detects critically injured enem
 - Enemies are revealed when damaged
 - Multiple Turrets can no longer attach to the same Enemy.
 
-#### Tank
+### Tank
 
-##### Role Passive: 
+#### Role Passive: 
 - 30% Knockback Resistance.
 - -30% Ultimate Charge Generated on Damaged/Healed.
 - 50% Damage Amplification Resistance.
