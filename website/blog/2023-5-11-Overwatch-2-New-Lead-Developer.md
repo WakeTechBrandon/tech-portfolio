@@ -13,17 +13,20 @@ You are now the lead developer of Overwatch, what changes do you make?
 
 ## Battlepass reworks
 
+Earning a new battlepass tier has the same animation as lootbox openings with an additional coin being added for each additional cosmetic in the tier.
+
+![Lootbox Opening Image](https://2static.fjcdn.com/large/pictures/51/59/51599c_5953252.jpg)
+
 Battlepass grants 4 cosmetics every level up.
 
 Every tier has both premium and free rewards.
-
-Earning a new battlepass tier has the same animation as lootbox openings with an additional coin being added for each additional cosmetic in the tier.
 
 ### New Battlepass: Legacy Pass
 
 [![Fortnite Legacy Battlepass example](https://external-preview.redd.it/A_kntktahdEtxCrhhICgZ0WCl4cec91XnOLjKsKu_kk.jpg?auto=webp&s=79f8f26e28f87a9b3b0e463803e3ceecf49e60ed)](https://www.reddit.com/r/FortNiteBR/comments/s34en2/a_legacy_battle_pass_system_like_in_halo_and/)
 
-There are now Legacy Passes. 
+There are now Legacy Passes. This is a "recent" type of battleass system implemented by 343 in Halo Infinte as a way to appease their players for a poor release.
+
 - Every Overwatch 1 item has been removed from the shop and is in 6 new legacy passes that each cost $10.
 - Overwatch 2 passes enter the legacy pass shop after 1 year.
 - Only one Legacy Pass can be active while the seasonal pass is active.
@@ -118,7 +121,9 @@ Daily tweets may show up in the news reel as well.
 
 Players will recieve in-game currency (not skins) when a DDOS or otherwise substantial issue arises that affactes Overwatch and is out of the players' hands such as server issues, game-breaking bugs (A hero needs to be disabled), etc.
 
-## Hero In-Game Information
+## More In-Game Information
+
+### Expanded Hero Information
 
 A new page has been added to all Hero Information pages that includes all relating current stats for abilities:
 
@@ -131,6 +136,8 @@ More Information relating to Effective HP:
 The order and different effects of each health type in Overwatch:
 
 ![Different Health Types In Overwatch 2 Image](https://i.ytimg.com/vi/uiwrGfjWVZ4/maxresdefault.jpg)
+
+###
 
 # Balance Update
 
