@@ -7,7 +7,7 @@ title: Overwatch 2 New Lead Developer
 
 # Prompt
 
-You are now the lead devloper of Overwatch, what changes do you make?
+You are now the lead developer of Overwatch, what changes do you make?
 
 <!--truncate-->
 
