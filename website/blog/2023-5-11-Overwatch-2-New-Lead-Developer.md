@@ -21,6 +21,8 @@ Earning a new battlepass tier has the same animation as lootbox openings with an
 
 ### New Battlepass: Legacy Pass
 
+[![Fortnite Legacy Battlepass example](https://external-preview.redd.it/A_kntktahdEtxCrhhICgZ0WCl4cec91XnOLjKsKu_kk.jpg?auto=webp&s=79f8f26e28f87a9b3b0e463803e3ceecf49e60ed)](https://www.reddit.com/r/FortNiteBR/comments/s34en2/a_legacy_battle_pass_system_like_in_halo_and/)
+
 There are now Legacy Passes. 
 - Every Overwatch 1 item has been removed from the shop and is in 6 new legacy passes that each cost $10.
 - Overwatch 2 passes enter the legacy pass shop after 1 year.
@@ -44,7 +46,7 @@ With the requirement to match the level of cosmetics from Overwatch 1 per Battle
   - Legendary: Fire, Sparks, Beating Hearts
 
 #### Battle Portraits
-![Apex Legends Battle Portrait Example Image](../../../../img/ApexLegends_Watson_Banner.PNG)
+![Apex Legends Banner Example Image](../../../../img/ApexLegends_Watson_Banner.PNG)
 
 - 2 possible directions
   - Scoreboard:
@@ -68,6 +70,14 @@ With the requirement to match the level of cosmetics from Overwatch 1 per Battle
   - season high
   - career high
   - other in-game challenge rewards.
+
+## New Aftermath Screen
+
+After being eliminated in Overwatch, there are many times where it is not entirely clear as to how you died. Assists will popup in the kill feed next to the icon of the player who dealt the final blow, but it is not clear whether you were being healed or damaged by another player at the same time.
+
+![Apex Legends Aftermath screen](https://answers.ea.com/t5/image/serverpage/image-id/87234i13225F7BC7490AE1?v=v2)
+
+If Players could see the amount of damage that they were taking over time and every player who participated in their death, then they would be able to have a clear picture of how they were eliminated.
 
 ## News Reel
 
@@ -108,14 +118,33 @@ Daily tweets may show up in the news reel as well.
 
 Players will recieve in-game currency (not skins) when a DDOS or otherwise substantial issue arises that affactes Overwatch and is out of the players' hands such as server issues, game-breaking bugs (A hero needs to be disabled), etc.
 
+## Hero In-Game Information
+
+A new page has been added to all Hero Information pages that includes all relating current stats for abilities:
+
+[![Redditor u/applejuice150 In-Game Hero Stats Example Image](https://preview.redd.it/dbqt9l8912d31.png?width=841&format=png&auto=webp&s=da6b95a22d13d104611f42cdb008c02062b86cd6)](https://www.reddit.com/r/Overwatch/comments/ciwge1/a_more_detailed_hero_info_screen/)
+
+More Information relating to Effective HP:
+
+[![Redditor u/y_ax2_bx_c Effective Armor HP without being healed](https://i.redd.it/btjjwgnzwx7a1.png)](https://www.reddit.com/r/Overwatch/comments/zumuz7/effective_health_of_armoured_heroes_without_being/)
+
+The order and different effects of each health type in Overwatch:
+
+![Different Health Types In Overwatch 2 Image](https://i.ytimg.com/vi/uiwrGfjWVZ4/maxresdefault.jpg)
+
 # Balance Update
 
 ## General
+
+I would much rather the game recieved no balance updates for a season and instead a massive bug fix/UI update was implemented. My favorite balance changes have been Zarya bubble crack visual FX in S3 and Sombra hack UI FX in S4. Most balance changes have been too miniscule to be excited for or directly damaging how fun the game was. That being said, if I were to make a balance update here are my changes:
 
 ## All heros
 
 50 more HP for all 250 and under heroes.
 10% increase to ultimate costs for all heroes.
+
+Instead of flat Nerfing all Supports' healing capabilities and Damage characters' Damage capabilities, we instead raise the base health of most characters in the game.
+To compensate for more possible ultimate charge generation, we increase the cost of all ultimates slightly.
 
 ### Supports
 
@@ -126,7 +155,7 @@ Supports also can see all allies' health bars above their own (can be switched o
 #### Kiriko
 
 ##### Suzu
-- No longer applies a incorporeal effect.
+- No longer applies an incorporeal effect.
 - Cooldown is reduced to 7s (was 15s).
 
 ##### Swift Step
@@ -243,6 +272,12 @@ More precise hitbox, and blue bullets
 - 50% Stun Duration Reduction.
 
 #### Doomfist
+
+##### Rocket Punch
+- Can now be aimed upward
+- Cooldown reduced to 3s from 4s
+- Max Damage on Impact reduced to 40 was 50.
+- Wall Slam Damage and stun time scales with knockback distance.
 
 ##### Power Block
 - Split into two parts
