@@ -48,7 +48,12 @@ With the requirement to match the level of cosmetics from Overwatch 1 per Battle
   - Epic: Wavy, Pixelized, Shift L->R
   - Legendary: Fire, Sparks, Beating Hearts
 
+#### New Name Card Backgrounds
+
+Animated backgrounds and hero speficic name cards. Some could even be glowing etc.
+
 #### Battle Portraits
+
 ![Apex Legends Banner Example Image](../../../../img/ApexLegends_Watson_Banner.PNG)
 
 - 2 possible directions
@@ -73,6 +78,26 @@ With the requirement to match the level of cosmetics from Overwatch 1 per Battle
   - season high
   - career high
   - other in-game challenge rewards.
+
+### Redefining Player Engagement Systems
+
+#### Faction Missions
+
+Replace Daily and Weekly challenges with "missions" from a faction. Either Talon or Overwatch and menu aestetics change depending on the faction.
+
+[![Hero Factions Example Image](../../../../img/Talon_Daily_Missions.png)](https://youtu.be/fEMef4--7uE)
+
+There can be a global board that shows the amount of faction challenges completed for each faction, showing off how much of the world is supporting Talon vs supporting Overwatch.
+
+More Factions can be added as more characters are added to the game for instance:
+- Shimada Crime Family Syndicate
+- Neutral Junker Gladiators
+
+#### Name Card Challenges
+
+Add hero specific difficult challenges with a wealth of rewards for long-term goals.
+
+[![Hero Challenges Example Image](../../../../img/overwatch_hero_challenges.png)](https://youtu.be/fEMef4--7uE)
 
 ## New Aftermath Screen
 
