@@ -81,6 +81,14 @@ Animated backgrounds and hero speficic name cards. Some could even be glowing et
 
 ## Redefining Player Engagement Systems
 
+### Clans
+
+In 2022, there was a leak on a Russian PTR Server of an image with a "CLAN C9" underneath their battle tag. In Hindsight, it looks as though Titles have overtaken their place, but developers had confirmed in the past that there was a "new social system: clans" being worked on.
+
+Hopefully we can see an update or event release near the end of 2023.
+
+[![YourOverwatch Clans Leaked Image](https://i.ytimg.com/vi/ovocVR8nXIA/maxresdefault.jpg)](https://www.youtube.com/watch?v=ovocVR8nXIA)
+
 ### Faction Missions
 
 Replace Daily and Weekly challenges with "missions" from a faction. Either Talon or Overwatch and menu aestetics change depending on the faction.
@@ -132,6 +140,9 @@ A survey that players may click on within the News Reel.
     - Free form empty text box to type a max of 500 words.
 
 Clicking next will display a results screen that shows a graph of every player's answers plotted as a graph. 
+
+![Example Graph Of Survey Answers](../../../../img/playerbase_survey_graph.png)
+
 - x-coord=time
 - y-coord=survey answers
 - viewing option for whole player base or color coded seperate lines per rank.
@@ -295,11 +306,19 @@ More precise hitbox, and blue bullets
 ### Damage 
 
 #### New Role Passive: Damage Cascade
+
 - Damaging a hero increases damage against that hero for 2s. Stacks with itself.
+
+#### Bastion
+
+##### Configuration: Assualt
+
+- While active, Tactical Grenade will explode on impact.
 
 #### Sombra
 
 ##### Opportunist
+
 Sombra deals more damage to revealed targets and detects critically injured enemies through walls.
 - Reduced Damage amplification effect to 20% was 25%
 
@@ -353,6 +372,7 @@ Sombra deals more damage to revealed targets and detects critically injured enem
   - This means there is no seperate stun time. 
     - If an enemy hits a wall before the impact stun duration is over (0.4s), then they are stunned for the rest of the impact stun duration.
     - Empowered Punch adds 0.6s to the stun time after fall-off.
+- Players that cannot be knocked back now take the additional wall-slam damage.
 
 ##### Power Block
 - Split into two parts
@@ -369,8 +389,10 @@ Sombra deals more damage to revealed targets and detects critically injured enem
 - Has 100 Damage Blocked Threshold
   - Awards Empowered Punch
   - Ends the ability with no cooldown
-  - Halves Power Parry's current Duration for 3 seconds
+  - Halves Power Parry's next Duration for 3 seconds (Stack up to 16 times.)
 - Duration 1 second
+
+#### Zarya
 
 
 
