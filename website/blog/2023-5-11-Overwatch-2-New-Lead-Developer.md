@@ -119,7 +119,7 @@ Daily tweets may show up in the news reel as well.
 
 #### Compensation for severe mistakes
 
-Players will recieve in-game currency (not skins) when a DDOS or otherwise substantial issue arises that affactes Overwatch and is out of the players' hands such as server issues, game-breaking bugs (A hero needs to be disabled), etc.
+Players will recieve in-game currency (not skins) when a DDOS or otherwise substantial issue arises that affects Overwatch and is out of the players' hands such as server issues, game-breaking bugs (A hero needs to be disabled), or wrongful bans/in-game suspensions, etc.
 
 ## More In-Game Information
 
@@ -136,6 +136,10 @@ More Information relating to Effective HP:
 The order and different effects of each health type in Overwatch:
 
 ![Different Health Types In Overwatch 2 Image](https://i.ytimg.com/vi/uiwrGfjWVZ4/maxresdefault.jpg)
+
+The relative sizes of all projectiles in Overwatch:
+
+[![Redditor u/Mitsiee Overwatch Projectile Size Comparision Image](https://external-preview.redd.it/hq0CA1xBXSdMKjjNK7QFk4q1-LEc4m-e8xw_umPkFzg.png?auto=webp&s=cb59b66b9521ea8b8952caad9a51a4a56c6ec016)](https://www.reddit.com/r/Competitiveoverwatch/comments/yeq8a3/comparison_of_projectile_sizes_including/)
 
 ###
 
@@ -270,6 +274,42 @@ More precise hitbox, and blue bullets
 ##### New Role Passive: Damage Cascade
 - Damaging a hero increases damage against that hero for 2s. Stacks with itself.
 
+#### Sombra
+
+##### Opportunist
+Sombra deals more damage to revealed targets and detects critically injured enemies through walls.
+- Reduced Damage amplification effect to 20% was 25%
+
+##### Hack
+- Hack effect now reduces rate-of-fire by 50%
+- Hack effect duration reduced to 1s was 1.5s
+- Reveal effect duration increased to 12s was 10s
+
+#### Sojourn
+
+##### Railgun Alt Fire
+
+- Damage Increase Per Energy increased to 1.5 was 1
+  - Damage is 30 - 180 was 30 - 130
+- Area-Of-Effect increased to 0.2 was 0.1
+- Damage is now relative to amount of enemy hurtbox intersected with hitbox
+  - Enemy entirely in hitbox takes full damage
+  - Enemy halfway in hitbox takes half damage
+- Can no longer headshot
+- Is no longer affected by fall-off (should be minimal difference with hitbox intersection change)
+- Can pierce enemies
+
+##### Overclock
+- Railgun Alt Fire can headshot on center pixel
+- Headshots ignore intersection damage reduction
+
+#### Symmetra
+
+##### Sentry Turrets
+- Can store 6 charges at once was 3
+- Enemies are revealed when damaged
+- Multiple Turrets can no longer attach to the same Enemy.
+
 #### Tank
 
 ##### Role Passive: 
@@ -294,6 +334,7 @@ More precise hitbox, and blue bullets
 - 50% Damage reduction
 - 30% self-slow
 - Infinte Duration
+- 4s cooldown
 
 ##### Power Parry
 - Fortified Effect
@@ -302,7 +343,6 @@ More precise hitbox, and blue bullets
   - Ends the ability with no cooldown
   - Halves Power Parry's current Duration for 3 seconds
 - Duration 1 second
-- Cooldown 4 seconds
 
 
 
