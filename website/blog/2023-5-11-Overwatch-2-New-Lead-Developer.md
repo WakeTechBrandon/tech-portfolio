@@ -79,9 +79,9 @@ Animated backgrounds and hero speficic name cards. Some could even be glowing et
   - career high
   - other in-game challenge rewards.
 
-### Redefining Player Engagement Systems
+## Redefining Player Engagement Systems
 
-#### Faction Missions
+### Faction Missions
 
 Replace Daily and Weekly challenges with "missions" from a faction. Either Talon or Overwatch and menu aestetics change depending on the faction.
 
@@ -93,13 +93,15 @@ More Factions can be added as more characters are added to the game for instance
 - Shimada Crime Family Syndicate
 - Neutral Junker Gladiators
 
-#### Name Card Challenges
+### Name Card Challenges
 
 Add hero specific difficult challenges with a wealth of rewards for long-term goals.
 
 [![Hero Challenges Example Image](../../../../img/overwatch_hero_challenges.png)](https://youtu.be/fEMef4--7uE)
 
-## New Aftermath Screen
+## More Player Information
+
+### New Aftermath Screen
 
 After being eliminated in Overwatch, there are many times where it is not entirely clear as to how you died. Assists will popup in the kill feed next to the icon of the player who dealt the final blow, but it is not clear whether you were being healed or damaged by another player at the same time.
 
@@ -107,7 +109,7 @@ After being eliminated in Overwatch, there are many times where it is not entire
 
 If Players could see the amount of damage that they were taking over time and every player who participated in their death, then they would be able to have a clear picture of how they were eliminated.
 
-## News Reel
+### News Reel
 
 With the introduction of the news reel in S3, this opens up massive in-game opportunities for gathering/providing data/information voluntarily from/to real players. 
 
@@ -146,8 +148,6 @@ Daily tweets may show up in the news reel as well.
 
 Players will recieve in-game currency (not skins) when a DDOS or otherwise substantial issue arises that affects Overwatch and is out of the players' hands such as server issues, game-breaking bugs (A hero needs to be disabled), or wrongful bans/in-game suspensions, etc.
 
-## More In-Game Information
-
 ### Expanded Hero Information
 
 A new page has been added to all Hero Information pages that includes all relating current stats for abilities:
@@ -165,8 +165,6 @@ The order and different effects of each health type in Overwatch:
 The relative sizes of all projectiles in Overwatch:
 
 [![Redditor u/Mitsiee Overwatch Projectile Size Comparision Image](https://external-preview.redd.it/hq0CA1xBXSdMKjjNK7QFk4q1-LEc4m-e8xw_umPkFzg.png?auto=webp&s=cb59b66b9521ea8b8952caad9a51a4a56c6ec016)](https://www.reddit.com/r/Competitiveoverwatch/comments/yeq8a3/comparison_of_projectile_sizes_including/)
-
-###
 
 # Balance Update
 
