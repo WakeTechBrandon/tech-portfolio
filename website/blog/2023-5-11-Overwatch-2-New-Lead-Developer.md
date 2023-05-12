@@ -44,7 +44,7 @@ With the requirement to match the level of cosmetics from Overwatch 1 per Battle
   - Legendary: Fire, Sparks, Beating Hearts
 
 #### Battle Portraits
-![Apex Legends Battle Portrait Example Image](../img/ApexLegends_Watson_Banner.PNG)
+![Apex Legends Battle Portrait Example Image](../../../img/ApexLegends_Watson_Banner.PNG)
 
 - 2 possible directions
   - Scoreboard:
