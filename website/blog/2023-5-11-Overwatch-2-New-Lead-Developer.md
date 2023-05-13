@@ -125,6 +125,10 @@ After being eliminated in Overwatch, there are many times where it is not entire
 
 If Players could see the amount of damage that they were taking over time and every player who participated in their death, then they would be able to have a clear picture of how they were eliminated.
 
+### A Better Scoreboard
+
+![Better Scoreboard Image](../../../../img/Scoreboard_01.png)
+
 ### News Reel
 
 With the introduction of the news reel in S3, this opens up massive in-game opportunities for gathering/providing data/information voluntarily from/to real players. 
