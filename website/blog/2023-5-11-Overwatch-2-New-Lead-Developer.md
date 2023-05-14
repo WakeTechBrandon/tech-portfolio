@@ -117,6 +117,10 @@ Season 3 would have been played on Hanamura with the cherry blossom trees, and S
 
 ## More Player Information
 
+### Hero Tutorials
+
+In-order to unlock a new hero, players must complete new challenges involving those heroes. I cannot speak for the first-time-user-experience, but for all Overwatch 2 heroes these challenges are fairly basic. From having you complete matches in their respective roles, to using their abilities in the practice range. I feel that a beter fit than these "challenges" would be to have a tutorial "mission" that teaches you each of their abilities similar to the training card in which you play as Soldier 76 and are told the basic of the game.
+
 ### New Aftermath Screen
 
 After being eliminated in Overwatch, there are many times where it is not entirely clear as to how you died. Assists will popup in the kill feed next to the icon of the player who dealt the final blow, but it is not clear whether you were being healed or damaged by another player at the same time.
@@ -126,6 +130,12 @@ After being eliminated in Overwatch, there are many times where it is not entire
 If Players could see the amount of damage that they were taking over time and every player who participated in their death, then they would be able to have a clear picture of how they were eliminated.
 
 ### A Better Scoreboard
+
+The scoreboard has become infamous for misinformation within a match. Almost becoming more of an ego feeder, than useful information. 
+
+Eliminations require one point of damage for credit and results in a bloated figure, which can become confusing to new players as the enemy deaths statistic does not add up to be equal to the elimination statistic. Instead I propose an Elimination Participation Percentage to be tracked instead. An average of all team members' participation (damage relative to max health)  in total eliminations will be tracked.
+
+Healing, Damage, and Mitigation all also have a miniscule place on the scoreboard. Characters such as Roadhog may indicate an amount of "feeding" through their healing stat. Moira is notorious for bloating her damage and healing numbers through a low constant damage, high Healing capability in general, and self healing. Damage heroes may inflate their Damage (or Supports their Healing) stat by only focusing the Tank character and not the other lower max Health targets. This causes player confusion as to their actual "value" created in a match. I suggest a statistic that tracks both healing and damage, while also removing self-healing, and reducing inflation caused by focusing Tanks. Ultimate Charge Generation would track all "value" created by a player even while having their Ultimate ability available. Another statistic to include may be a "Ultimate Charge Inefficiency" statistic as well, as that would indicate how much Ultimate Charge was generated while said Ultimate was available. 
 
 ![Better Scoreboard Image](../../../../img/Scoreboard_01.png)
 
