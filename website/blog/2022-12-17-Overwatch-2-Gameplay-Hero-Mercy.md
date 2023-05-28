@@ -32,10 +32,18 @@ Forcing them onto an easier hero such as Mercy, and if that player continues to 
 ###### Dinner Dash
 
 ###### Pocket Mercy
+This is the most hated playstyle of Mercy. Widely considered unfun to play and unfair to play against, a Pocket Mercy playstyle details an abandoning of your own team and focusing all your resources into a single ally.
+The pocketed hero has essentially a permenant 30% damage boost when undamaged, a 55hps health restoration after taking damage or reaching critical, and two (or more) lives. 
+Gameplay of this playstyle consists of staring at your dps while standing, or crouching behind a wall. 
+Depending on the hero and their position, Mercy may also be permenently airborne while attached to their pocketed target typically in the open and away from cover.
+Spectator Mercy, because the player is simply playing as a floating camera just watching the fight instead of participating.
 
 ###### Battle Mercy
 
 ### Mercy Issues
+
+#### Pocketing
+Playing against a hero pocketed by a friendly support, essentially a 2v1, is neigh impossible. With most other supports there is a skill check for continued healing, a cap on the max amount of time, or just low base healing.
 
 #### Power Boost Oppression
 
