@@ -12,6 +12,19 @@ MMR, as of Season 4, directly corrolates to a player's visible rank after reciev
 
 <!--truncate-->
 
+How is MMR calulated? Lets take a new player, for instance, someone who has never touched Overwatch before- a freshly made level 1 account.
+The new player begins at Bronze 5, and ranked is locked until they reach 50 wins in Quickplay.
+Playing their first match, the outcome is variable.
+
+The matchmaker has a degree of certainty about every player, with new players being the most uncertain about their ranks.
+Uncertainty determines the amount of MMR won and lost after a martch.
+Also, the outcome prediction affects won/lost MMR from a match.
+When predicted to lose, a player losses less and wins more, and when predicted to win the vise versa occurs.
+
+Winning/losing multiple matches in a row (streaks) affects the certainity of the matchmaker.
+This means that win streaks and loss streaks will earn/lose more MMR the longer the streak goes on.
+Keep in mind that, while player ranks update with every 5 wins or 15 losses, player MMR updates with every match.
+
 [S3 Matchmaking Retrospective](https://news.blizzard.com/en-us/overwatch/23938059/matchmaking-update-season-three-retrospective-and-future-plans)
 
 > “What makes looking at stomps tricky is that they also happen with two well balanced teams. A really great ultimate, a key pick, or a few lucky critical shots can make a huge impact in a game of Overwatch,”
