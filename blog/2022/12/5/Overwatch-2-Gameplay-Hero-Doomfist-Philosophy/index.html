@@ -1,0 +1,581 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Doomfist&#x27;s Identity · Brandon M. Biggs</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="# Overwatch 2"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Doomfist&#x27;s Identity · Brandon M. Biggs"/><meta property="og:type" content="website"/><meta property="og:url" content="https://WakeTechBrandon.github.io/tech-portfolio/blog/2022/12/5/Overwatch-2-Gameplay-Hero-Doomfist-Philosophy"/><meta property="og:description" content="# Overwatch 2"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/tech-portfolio/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://WakeTechBrandon.github.io/tech-portfolio/blog/atom.xml" title="Brandon M. Biggs Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://WakeTechBrandon.github.io/tech-portfolio/blog/feed.xml" title="Brandon M. Biggs Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/tech-portfolio/js/scrollSpy.js"></script><link rel="stylesheet" href="/tech-portfolio/css/main.css"/><script src="/tech-portfolio/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/tech-portfolio/"><h2 class="headerTitle">Brandon M. Biggs</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/tech-portfolio/docs/about" target="_self">About</a></li><li class=""><a href="/tech-portfolio/docs/projects" target="_self">Projects</a></li><li class="siteNavGroupActive"><a href="/tech-portfolio/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem"><a class="navItem" href="/tech-portfolio/blog/2023/5/11/Overwatch-2-New-Lead-Developer">Overwatch 2 New Lead Developer</a></li><li class="navListItem"><a class="navItem" href="/tech-portfolio/blog/2023/05/01/Overwatch-Matchmaking">Overwatch Matchmaking</a></li><li class="navListItem"><a class="navItem" href="/tech-portfolio/blog/2023/03/09/Overwatch-Sojourn-Railgun">Sojourn Railgun</a></li><li class="navListItem"><a class="navItem" href="/tech-portfolio/blog/2023/01/23/Overwatch-Monetization">Overwatch 2 Monetization</a></li><li class="navListItem"><a class="navItem" href="/tech-portfolio/blog/2023/01/07/Overwatch-A-Passionate-Love-Letter-To-An-Abusive-Game">A Passionate Love letter to an Abusive Game</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/tech-portfolio/blog/2022/12/5/Overwatch-2-Gameplay-Hero-Doomfist-Philosophy">Doomfist&#x27;s Identity</a></h1><p class="post-meta">December 5, 2022</p><div class="authorBlock"><p class="post-authorName"><a href="https://waketechbrandon.github.io/tech-portfolio/" target="_blank" rel="noreferrer noopener">Brandon M. Biggs</a></p></div></header><div><span><h1><a class="anchor" aria-hidden="true" id="overwatch-2"></a><a href="#overwatch-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overwatch 2</h1>
+<p>The long awaited sequel to Overwatch, boasting robust Player-Versus-Enemy (PvE) missions has entered &quot;Early-Access.&quot;
+Releasing the Player-Versus-Player (PvP) experience worldwide without the PvE content.
+Essentially, Overwatch 2 is a direct engine update to the original and a PvP format change from 6-Players-Versus-6-Players (6v6) to 5-Players-Versus-5-Players (5v5).
+The original intention behind the transition from 6v6 to 5v5 was <em>Queue Times</em>, <em>Individual Agency</em>, and <em>Visual Clutter</em>.
+Amoung the many different systematic, role-specific, and individual hero changes established between the original Overwatch and the sequel; One hero in particular was moved to a different role.
+This character was: Doomfist.</p>
+<!--truncate-->
+<h3><a class="anchor" aria-hidden="true" id="introduction"></a><a href="#introduction" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h3>
+<p>Doomfist resided amongst the Damage roster alongside other characters such as Hanzo, Widowmaker, and the newly released hero: Sojourn.
+The trifecta of</p>
+<ul>
+<li>Tank,</li>
+<li>Damage, and</li>
+<li>Support</li>
+</ul>
+<p>that constantly persevere through video games has been long established since before the beginning of Overwatch 1 and were extended at it's conception.
+Each of these roles have preestablished abilities and playstyles that correspond to their parented job titles:</p>
+<ul>
+<li>Tanking Damage,</li>
+<li>Dealing Damage, and</li>
+<li>Supporting Teammates.</li>
+</ul>
+<p>With the format change from 6v6 to 5v5, the Tank role was given compensation-- for their now missing partner-- resulting in a single &quot;Super Tank.&quot;</p>
+<h2><a class="anchor" aria-hidden="true" id="dps-doomfist"></a><a href="#dps-doomfist" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DPS Doomfist</h2>
+<blockquote>
+<p>During his presentation, Overwatch lead designer Geoff Goodman called Doomfist, with his unique, melee-focused combat, an &quot;ode to the fighting genre,&quot; and the concept art for the character was a direct homage to fighting game art.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+</blockquote>
+<p>The lead designer of Overwatch 1 wanted Doomfist to be like a fighting game character inside of an &quot;FPS Hero Shooter&quot; (Overwatch) Genre.
+This release conception of the &quot;Fighting-Game-Combo&quot; character had abilities that excelled in combination with each other.
+By utilizing his &quot;Seismic Slam&quot; and &quot;Uppercut&quot; he can set himself up for his &quot;Primary&quot; shotgun or his &quot;Power Punch&quot; for a lot of targeted burst damage.
+This intentionally created a &quot;Glass Cannon&quot; or &quot;All-In&quot; type character in which Doomfist would often recieve a &quot;guaranteed&quot; kill if he commited, but be left defensless with his abilities on cooldown.
+Unaware players likely would fall prey to Doomfist's fully-charged &quot;Power Punch&quot; but this playstyle was not maintained due to the ease of tools given to the rest of the roster.</p>
+<h3><a class="anchor" aria-hidden="true" id="dps-issues"></a><a href="#dps-issues" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DPS issues</h3>
+<p>Doomfist's large hitbox (Larger than the Tank hero Zarya) and small health pool (50 HP more than a normal Damage roster hero) allowed other players generous opportunities to &quot;shut down&quot; an enemy Doomfist.
+As time passed and players began to learn Doomfist and how to react to an enemy Doomfist, a common play style began to emerge.
+A combination of a loud, slow-movement, and slow charge-up time for &quot;Power Punch&quot; and: a loud casting, and time-in-air damage-ramp-up for his slam created a high altitude assassination playstyle.
+This playstyle covered his weaknesses by reducing the amount of warning enemy players were given and required the enemies to remain unaware of his incoming air-strike.</p>
+<ul>
+<li>Successfully landing on a non-tank character would deal around (at max. air-time) half the character(s)' hp as damage (~45 - 125),</li>
+<li>allowed a &quot;Primary&quot; shotgun fire before then using &quot;Uppercut&quot; (50),</li>
+<li>and reducing the remaining hp to zero with more &quot;Primary&quot;s</li>
+<li>before using &quot;Power Punch&quot; to immedietly dash away from the enemy team.</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="counter-swapping-required"></a><a href="#counter-swapping-required" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Counter-swapping required</h4>
+<p>Uncoordinated teams and unaware players would suffer from this playstyle and be confused as to the &quot;counter-play&quot; the devlopers intended for Doomfist.
+The culmination of Doom's ability focused playstyle, large hitbox, and small health pool lead to large spread weapons and Stuns potentially removing the hero and his value from the match.
+Developer intentions are clear that Overwatch 1 was a game centered around the capability to swap characters mid-match and that some characters would be more effective against others, but the playerbase contained One-Trick-Players (OTPs).
+Even in specific situations:</p>
+<ul>
+<li>when the entire enemy team would swap characters to &quot;counter&quot; Doomfist, players would not swap off of the character.</li>
+<li>Vice versa, the enemy team would refuse to swap to a &quot;counter&quot; to the Doomfist player.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="tank-doomfist"></a><a href="#tank-doomfist" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tank Doomfist</h2>
+<p>Overwatch 2 gave the developers a new oppurtunity to rebalance characters with drastic changes including the movement from a Damage role to a Tank role.</p>
+<blockquote>
+<p>“Doomfist is a combo hero, taking a page out of fighting games. We want to keep that feeling while moving him to the tank role,” explains Goodman.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+</blockquote>
+<p>With the transition from Damage to Tank, Doomfist has traded his high burst damage capability for a more consistent damage output and higher survivability.
+This includes 200 more Health (Just under Zarya and more in-line with similar big hitbox characters IE: Tanks) and a weaker Power Punch that is faster, has more knockback, and can hit multiple players at once (Multi-Punch).
+His &quot;Uppercut&quot; was replaced with &quot;Power Block&quot; and applies damage mitigation to <em>most</em> frontal damage and charges his next Power Punch to be doubled in most capabilities. (<em>Empowered Punch is NOT doubled, aspects are 50% increased. For instance: Rocket Punch deals 70 max damage, Empowered Punch would deal 115 max damage. NOT 140</em>)
+Seismic Slam was also overhauled to be much more mobile and consistent of an ability, sporting a larger damage range, but less damage.
+While Doomfist cannot inherently One-Shot-Punch anymore, utilizing &quot;Power Block&quot; will allow Doomfist to deal heavy damage to enemies and stun them for one second.
+This will kill half-health non-Tank heros, and allow a small time frame for well-placed follow-up shots on survivors.</p>
+<h3><a class="anchor" aria-hidden="true" id="tank-playstyle"></a><a href="#tank-playstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tank playstyle</h3>
+<blockquote>
+<p>While his new positioning and combos require more finesse to manage, he has transformed into a more approachable, free-flowing, and impactful tank—all while feeling familiar to current Doomfist players.<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2]</a></sup></p>
+</blockquote>
+<p>Tank Doomfist has become without a doubt the most burst-mobility-based tank in Overwatch 2.
+By comboing his &quot;Power Punch&quot; and new Seismic Slam, Doomfist can leave spawn and land on the objective in most maps.
+Doomfist can also Slam the enemy team then use his passive generated Overhealth to buy time to charge a Power Punch to then knockback the enemy team and regenerate the Overhealth potentially lost in that time.
+His Power Block serves as a &quot;stall&quot; ability that allows him to wait for his cooldowns to come back, and possibly &quot;parry&quot;</p>
+<blockquote>
+<p>“When you block a hard-hitting attack, you get powered up instantly. It almost feels like a parry,” says Goodman.<sup class="footnote-ref"><a href="#fn2" id="fnref2:2">[2]</a></sup></p>
+</blockquote>
+<p>incoming abilities.
+This does not sound that diverse of a &quot;combo&quot; list for a &quot;combo&quot; based character.
+His combo includes using Power Punch and then Slam or vise versa with Power Block to wait for Slam's cooldown back, block a major ultimate, or get a cheeky Empowered Punch off spam damage.
+With the addition of allowing each of his abilities to be canceled with another, this makes him even less of a &quot;combo&quot; character: exchanging 2 abilites for 1 better ability.</p>
+<h3><a class="anchor" aria-hidden="true" id="tank-issues"></a><a href="#tank-issues" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tank Issues</h3>
+<h4><a class="anchor" aria-hidden="true" id="complaints"></a><a href="#complaints" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Complaints</h4>
+<p>As should be expected, many Doomfist players have been upset by this loss of endorphine rush created by his former One-Shot-Punch, as well as the &quot;Bread-And-Butter&quot; Slam, Uppercut combo.
+Unbeknownst to a newcomer, Power Punch has retained its signature One-Shot-Punch capability. As described above, the developers have reworked the ability to require more skill and give more output on success.
+This raising of the &quot;Skill-floor&quot; of the character creates a more difficult barrier of entry to the hero for both original DPS Doomfist players, newcomers to Overwatch as a whole, and the FPS genre.
+Hiding value behind &quot;skill-walls&quot; is not inherently bad. This gives players a tangible &quot;goal&quot; and prevents a mentality of believing certain heros outclass the rest of the roster by virtue of existance.</p>
+<h4><a class="anchor" aria-hidden="true" id="compared-to-other-tanks"></a><a href="#compared-to-other-tanks" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compared to other tanks</h4>
+<p>The new Power Block ability does not compare well to other Tanks' defensive ability(ies):</p>
+<ul>
+<li><p>Reinhardt has a barrier that mitigates 100% of damage, has a large area that it blocks, but also cannot perform other actions. Barrier functions off a regenerating health pool and has no cooldown until broken. He is also slowed for its duration.</p></li>
+<li><p>Zarya has two barriers that last a set time, have a set pool of health, can be projected onto teammates, increase her damage when attacked, mitigate 100% of damage recieved, and cleanse negative debuffs. Duration is short and Cooldown is long, but two charges can be stored at a time and she can perform other actions while using it.</p></li>
+<li><p>Winston has a barrier that mitigates 100% of damage, is dome shaped and deployed so it can block areas off, it has a long cooldown and Winston can perform actions while the barrier is deployed. The barrier also has a set health pool and will break.</p></li>
+<li><p>Roadhog has Take-A-Breather which restores 350 health, and provides 50% damage mitigation to himself. Roadhog can be stunned out of his ability, and moves slower.</p></li>
+<li><p>Wrecking-ball has Adaptive Shields which generates 100 overhealth + 100 additional health per enemy within radius (Max 600 - 700 with B.O.B), cannot be stunned out of it, and he can still perform actions during it. Has a long duration and a longer cooldown.</p></li>
+<li><p>D.Va has Defense-Matrix which deletes projectiles that are in her field-of-view, she can activate other abilities during it but cannot use her weapon, has a short duration and a shorter cooldown. Can also be inturrupted.</p></li>
+<li><p>Sigma has a projected barrier that he can deploy that functions like Winstons barrier and Reinhardts barrier. The barrier has no cooldowns until broken and can be withdrawn after deployment. He also has Kinetic Grasp that functions similar to D.Vas Defense Matrix, but has a longer duration, even longer cooldown, and generates Overhealth.</p></li>
+<li><p>Orisa has Fortify which negates all kncokback and stun effects, while also removing Headshot damage, generating 125 Overhealth on activation, grants 40% damage mitigation, and lets Orisa shoot her gun longer. Has a short duration and a long cooldown. Orisa also has Javelin spin which functions like D.Vas Defense Matrix but also negates melee damage, deals melee damage, and applies a movement buff to her. Has a very short duration and a long cooldown.</p></li>
+<li><p>JunkerQueen has Commanding Shout which provides 200 Overhealth, 50 Overhealth for teammates within range, and provides a movement speed buff to self and teammates. Has a short duration and a very long cooldown. She also can perform other actions during its duration.</p></li>
+<li><p>Ramattra has a deployable barrier that functions like Winstons barrier once deployed. Has a short duration and a very long cooldown. Also has Nemesis form, which grants 150 armor, and unlocks access to Block which negates 50% of incoming frontal damage (Stacks with armor for 80%), and slows during usage, but can be interrupted (No cooldown or duration on Block). Has a long duration and a long cooldown.</p></li>
+</ul>
+<p>Doomfist Power Block mitigates 80% of <em>most</em> frontal damage. Doom cannot perform other actions during it and he can be inturrupted. He also slows himself for the duration which is short and the cooldown is long. After blocking enough damage his next Power Punch will be Empowered (doubled properties).</p>
+<h4><a class="anchor" aria-hidden="true" id="stealth-nerfs"></a><a href="#stealth-nerfs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stealth nerfs</h4>
+<p>Seismic Slam has become more consistent and has a larger area of effect, although a vastly lower amount of damage.
+This is a very clear nerf to the previous ability. Originally, the ability was much smaller and targeted, bounced enemies toward Doom, and required high altitude for more damage creating &quot;map-dependent&quot; and &quot;map-knowledge&quot; slams.
+The larger radius draws more enemy aggression (agro), alerting the majority of the enemy team to Doom's position, which is a fantastic Tank ability (Drawing agro) and giving Overhealth per enemy damaged according to his passive.
+This ability would be incredible for a Tank character, if they had the health and armor to sustain the complete focus fire of the enemy team, but Doomfist has not been reworked to sustain damage like a Tank character.</p>
+<p>Unfortunately, Doomfist retained his Overwatch 1 passive values, giving him 30 Overhealth per enemy hit up to a maximum of 150 Overhealth.
+This rework is a stealth nerf to Doomfist's passive in that removing his &quot;Uppercut&quot; and replacing it with a non-damaging ability has taken away from his Overhealth-Per-Second (OHPS) generation.
+&quot;Power Punch&quot;'s rework to include &quot;Multi-Punch,&quot; may possibly make-up for the OHPS lost with his Uppercut transaction to Power Block, but he still is missing a third OHPS generation ability.
+When talking about Doomfist's passive ability, it seems to be time to bring up the bug in the room:</p>
+<h4><a class="anchor" aria-hidden="true" id="bug-issues-and-inconsistency"></a><a href="#bug-issues-and-inconsistency" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bug Issues and Inconsistency</h4>
+<p>Seismic Slam registration bugs...</p>
+<blockquote>
+<ul>
+<li>Seismic Slam can be blocked by player bodies<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></li>
+<li>Seismic Slam is like Swiss Cheese and has random holes all throughout it<sup class="footnote-ref"><a href="#fn3" id="fnref3:1">[3]</a></sup></li>
+<li>Seismic Slam can be blocked by corners<sup class="footnote-ref"><a href="#fn3" id="fnref3:2">[3]</a></sup></li>
+</ul>
+</blockquote>
+<p>Power Block damage mitigation inconsistency...</p>
+<blockquote>
+<ul>
+<li>Damage Ignoring Power Block<sup class="footnote-ref"><a href="#fn3" id="fnref3:3">[3]</a></sup></li>
+<li>Damage ‘Bouncing’ off and/or Phasing through Power Block<sup class="footnote-ref"><a href="#fn3" id="fnref3:4">[3]</a></sup></li>
+</ul>
+</blockquote>
+<p>Developer miscommunication or logic failure...</p>
+<blockquote>
+<p>Power Block is Doomfist’s one and only defensive ability and for some reason operates very inconsistently when blocking damage. This is a bit of a combo issue as it is due to various bugs alongside the very unclear intentions of the developers on what can and cannot be blocked. A large majority of things that should realistically be able to be blocked cannot be blocked and some things that seem like they shouldn’t or wouldn’t be able to be blocked can be blocked, it’s unclear and unnecessarily restricted.<sup class="footnote-ref"><a href="#fn3" id="fnref3:5">[3]</a></sup></p>
+</blockquote>
+<p>As a &quot;Tank&quot; hero, Doomfist does not have the consistency of sustainability in fights. With registration issues on Seimic Slam alerting the enemy team, and not rewarding damage and Overhealth, Slam suddenly becomes a low-tier ability with near-no-value.
+Instead, canceling Slam with Power Block or charging Power Punch becomes much more effective by giving the benefits of a movement speed boost during these penealizing abilities. Slam effectively becomes a long cooldown to negate Doom's slow movement speed during his other two abilities.
+Power Block looks and sounds like a great defensive ability, if there wasn't unintuitive damage abilities that he can block and can't block.</p>
+<h3><a class="anchor" aria-hidden="true" id="issues-conclusion"></a><a href="#issues-conclusion" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Issues conclusion</h3>
+<h4><a class="anchor" aria-hidden="true" id="does-doom-have-the-same-identity"></a><a href="#does-doom-have-the-same-identity" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Does Doom have the same identity</h4>
+<p>Doomfist has lost the identity of a &quot;combo&quot; character from a fighting-style game. The Uppercut was indicative of the <em>&quot;shoryuken&quot;</em> (or Rising Dragon Fist) from Street Fighter, but has been lost.
+Seismic Slam and Power Block have been reworked into generic abilities that do not speak &quot;Fighting-Game-Genre&quot; style, and the bugs/inconsistent applications of these two abilities make it difficult to definitively say how much Tank Doom is better than DPS Doom.
+The playstyles of Doomfist have retained their Damage role &quot;Aerial Assassination&quot; style of riding the skybox and focusing outliers in team comps, as well as &quot;Punch bot&quot; style in which Doomfist stays with his team and brawls the enemy tank.</p>
+<h4><a class="anchor" aria-hidden="true" id="was-the-role-change-necessary"></a><a href="#was-the-role-change-necessary" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Was the role change necessary</h4>
+<p>Doomfist was originally shifted to the Tank role because of his crowd-control playstyle and Tanks have been decreeded as the role which is allowed stuns, and knockbacks etc.
+The dev team likely also sought a solution for his One-Shot ability that frustrated players on the other side of it.
+Finally, the developers have openly come out to addressing &quot;hard-countering&quot; and it's place in Overwatch 2:</p>
+<blockquote>
+<p>“One of the big differences with 5v5 combat is that we’ve tuned a lot of the heroes in the game, and we’ve made changes to reduce the amount of hard counters that Overwatch has,” Keller said. “We want the game to be a little bit more organic. We want people to have more impact, but we also want them to have more freedom in what hero they’re choosing for any particular situation.<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
+</blockquote>
+<p>&quot;Counter-swapping&quot; was a very clear intended mechanic in Overwatch 1, and giving Doomfist more HP (for his relatively large hitbox) and more mobility reduces the &quot;counterability&quot; of close-range spread weapons as well as reducing the lock-out duration for Sombra's hack and prevalance of other stuns.
+Doomfist's abilites, However, have been reworked to contain less CC than DPS Doom. Slightly defeating the purpose of the rework.
+Seismic Slam used to &quot;bounce&quot; characters toward Doomfist, and Power Block does not have any CC, but Power Punch does much more CC (Although this was supposed to be compensation for losing damage, not losing a CC ability).</p>
+<h2><a class="anchor" aria-hidden="true" id="solutions"></a><a href="#solutions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Solutions</h2>
+<h3><a class="anchor" aria-hidden="true" id="other-peoples-suggestions"></a><a href="#other-peoples-suggestions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other people's suggestions</h3>
+<h4><a class="anchor" aria-hidden="true" id="other-peoples-uppercut-solutions"></a><a href="#other-peoples-uppercut-solutions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other people's Uppercut solutions</h4>
+<ul>
+<li>Replace Power Block with original Uppercut.</li>
+<li>When activating Meteor Strike, Doom performs Uppercut on his way to space.</li>
+<li>Performing a well timed Power Block results in a &quot;parry&quot; where Doomfist will uppercut.</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="other-peoples-power-block-solutions"></a><a href="#other-peoples-power-block-solutions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other people's Power Block solutions</h4>
+<ul>
+<li>Power Block to be moved to another input (Crouch) and to bring Uppercut back.</li>
+<li>Power Block mitigates 100% of damage</li>
+<li>Power Block is immune to all CC</li>
+<li>Power Block also Empowers Seismic Slam</li>
+<li>Power Block functions on a resource meter. Carrying blocked damage across uses (Similar to D.Va's Defense-Matrix)</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="the-overwatch-teams-solution"></a><a href="#the-overwatch-teams-solution" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Overwatch Team's solution</h3>
+<h4><a class="anchor" aria-hidden="true" id="updated-overwatch-2-season-2-solution-patch"></a><a href="#updated-overwatch-2-season-2-solution-patch" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>(Updated) Overwatch 2: Season 2 solution patch</h4>
+<h6><a class="anchor" aria-hidden="true" id="rocket-punch"></a><a href="#rocket-punch" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rocket Punch</h6>
+<p><em>For referrence: Empowered Punch deals 50% more damage, not 100% more damage</em></p>
+<ul>
+<li>Damage range redistributed to be more consistently rewarding for landing the punch as opposed to the Wall Slam.
+<ul>
+<li>Impact from (15 - 30) to (25 - 50)</li>
+<li>Wall Slam from (20 - 40) to (10 - 30)</li>
+<li>Combined damage range was (35 - 70) and is now (35 - 80)</li>
+</ul></li>
+<li>Wall Slam stun added to regular punch, but subtracted from Empowered Punch
+<ul>
+<li>Regular wall slam stuns for 0.25s
+<ul>
+<li>This is closer to a Quality-Of-Life (QoL) change that allows for more consistent follow-up on all heros (Some heros could escape immediately and avoid follow-up)</li>
+</ul></li>
+<li>Empowered Wall slam reduced (0.25s - 0.75s)
+<ul>
+<li>A fairly big nerf to the amount of time for aiming and firing follow-up primary shots.</li>
+</ul></li>
+</ul></li>
+<li>Empowered Punch knockback radius reduced from 4 to 3 meters.
+<ul>
+<li>Massive nerf to the visual impact/feel and danger of Empowered Punch (Less likely wall slam means losing half the potential damage)</li>
+</ul></li>
+</ul>
+<p>The Rocket Punch damage redistribution is a QoL change but overrall Doomfist mains will only see the 10 more maximum damage on their charged punches.
+Adding a 0.25s cuncussion effect to players that have been wall-slammed is an extremely niche buff that will make Doomfist more frustrating to play against for the majority of the player base whilst hardly benefiting the Doomfist player.
+<em>This is a really, REALLY bad change and I cannot stress enough how worthless of a buff this is.</em>
+The nerfs to Empowered Punch make it less likely to obtain the additional Wall-Slam damage and stun, making the ability overall much less impactful.
+<em>This is a really, REALLY bad change. Making it easier to obtain but less impactful defeats the purpose of seperating the ability behind a skill-wall</em></p>
+<h6><a class="anchor" aria-hidden="true" id="power-block"></a><a href="#power-block" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Power Block</h6>
+<ul>
+<li>Cooldown reduced from 8 to 7 seconds</li>
+<li>Duration increased from 2 to 2.5 seconds</li>
+<li>Minimum damage mitigated required to empower Rocket Punch reduced from 90 to 80 damage</li>
+</ul>
+<p>The combination of lower cooldown and higher duration allows for more likely situations in which Empowered Punch is obtained. This is intentional of the patch, but I feel like this reduces the amount of &quot;skill&quot; required to &quot;earn&quot; an Empowered Punch, resulting in a similar situation to Zarya in that it is easy to walk into damage and obtain high charge. Empowered Punch becoming easier to obtain, but less impactful, defeats the purpose of hiding the extra potential behind a skill wall. Why make Empowered Punch easier to obtain in a single Block as opposed to retaining damage between blocks? Does maintained progress toward the next Empowered Punch too punishing for players who are intentionally not trying to feed him his power-up? By increasing the duration, Power Block has become punishing to players who choose not to damage him.</p>
+<h6><a class="anchor" aria-hidden="true" id="meteor-strike"></a><a href="#meteor-strike" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Meteor Strike</h6>
+<ul>
+<li>Now empowers Rocket Punch on landing</li>
+<li>Enemy slow duration increased from 2 to 3 seconds</li>
+</ul>
+<p>Both of these changes make Doomfist's ultimate more impactful and in-line with setting up potential follow-up, as well as dangerous to be targeted by. This also helps close the skill-gap required to earn Empowered Punch (Which seems not unhealthy at first glance.)</p>
+<h6><a class="anchor" aria-hidden="true" id="the-best-defense"></a><a href="#the-best-defense" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Best Defense...</h6>
+<ul>
+<li>Maximum temporary health increased from 150 to 200 health</li>
+<li>Temporary health gained per target hit with abilities increased from 30 to 40 health</li>
+</ul>
+<p>This change is extremely welcome, but with the continued persistence of Slam Registration bugs, it is difficult to judge whether he needed the extra generation per ability. The maximum temporary health increase was excellent at a glance.</p>
+<h4><a class="anchor" aria-hidden="true" id="update-2-overwatch-2-season-2-hot-fix"></a><a href="#update-2-overwatch-2-season-2-hot-fix" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>(Update 2) Overwatch 2: Season 2 Hot-fix</h4>
+<h6><a class="anchor" aria-hidden="true" id="rocket-punch-1"></a><a href="#rocket-punch-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rocket Punch</h6>
+<ul>
+<li>Cooldown increased to 4 seconds (was 3)</li>
+</ul>
+<p>This seems like a marginally ok nerf.
+Doomfist used to have a 4s cooldown on Punch and Power Block often rewards the ability after soaking enough damage, or only 1.5s of waiting at the very max.
+Howver, the ability has not recieved any changes that warrent a 1s increase to his main ability.
+Also, I often found that I could play most team fights without needing to use Power Block, but now this change seeks to force the ability to be used more often.</p>
+<h6><a class="anchor" aria-hidden="true" id="power-block-1"></a><a href="#power-block-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Power Block</h6>
+<ul>
+<li>Minimum damage mitigated required to empower Rocket Punch increased from 80 to 100 damage</li>
+</ul>
+<p>The worst change possible. This pushes Doomfist over the edge of &quot;worse than the previous season&quot; and &quot;this change defeats the very purpose of the previous buffs.&quot;</p>
+<h6><a class="anchor" aria-hidden="true" id="the-best-defense-1"></a><a href="#the-best-defense-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Best Defense...</h6>
+<ul>
+<li>Temporary health gained per target hit with abilities reduced to 35 from 40 health</li>
+</ul>
+<p>A midway change for an unnecessary buff.</p>
+<p>The season 2 hot fix came 9 days after the original Patch and has left Doomfist in a worse place than in the previous season.
+The amount of disrespect towards the most skill-requiring tank is unfathomable.
+The very purpose of the season 2 update was explicitely stated by the developers as to make Doomfist obtain Empowered Punch more often.</p>
+<p><em>Power Block is the worst defensive ability in the game. Previous Damage Doomfist's Uppercut was a better defensive ability because it activated his passive and offered mobility. The ONLY redeeming quality of Power Block is Empowered Punch.</em></p>
+<p>What changes did Doomfist <em>NEED</em> and what changes were <em>unneccessary</em>?</p>
+<p>Needed:</p>
+<ul>
+<li>Lowering the damage threshold for Empowered Punch.</li>
+<li>Any buff to the ultimate.</li>
+<li>The Passive Maximum Overhealth (stealth buff to ultimate).</li>
+</ul>
+<p>QoL:</p>
+<ul>
+<li>Damage redistribution to prefer impact as opposed to wall slam.</li>
+<li>10 more damage on a fully charged punch</li>
+<li>0.25s wall slam stun
+<ul>
+<li>Makes Doom more consistent against the roster in general, but less fun to play against. Therefore, undesirable.</li>
+</ul></li>
+</ul>
+<p>Token changes:</p>
+<ul>
+<li>Passive Health Generation increase
+<ul>
+<li>This makes Doomfist obtain more value for doing less. The maximum change helps keep Doom from exploding, but increasing the generation makes Doom too stustainable for too long, for no added skill requirement.</li>
+</ul></li>
+<li>Power Block Duration increase</li>
+<li>Power Block Cooldown decrease</li>
+</ul>
+<p>Power Block makes Doomfist a slow immobile target. Slowly walking around waiting to be shot is unfun, unintuitive and bad game design.
+Being his only defensive ability, this actively opens Doomfist up to easily be overwhelmed as opposed to protecting him or his teammates.
+The ability can be interrupted without rewarding Doomfist with Empowered Punch, resetting the Rocket Punch ability, or applying the 80% damage mitigation to upcoming damage.
+This means that using his <em>defensive</em> ability, Doomfist is made to feel <em>MORE</em> vulnerable than without it.
+Using this ability more often and for longer, without obtaining Empowered Punch, creates an overrall less fun and less impactful expereience, as well as defeating the original prpose for the ability.</p>
+<p>The purpose of obtaining the Empowered Punch off of Power Block was to reward Doomfist for blocking a high damaging attack, not for blocking a constant stream of damage, or as punishment to enemy players for shooting at him during the duration.
+This miniature rework to an already terrible ability: blocking more often, for longer, and for a majorly less impactful power up leaves Doomfist in a much weaker state than before.</p>
+<h3><a class="anchor" aria-hidden="true" id="my-suggestions"></a><a href="#my-suggestions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>My suggestions</h3>
+<h6><a class="anchor" aria-hidden="true" id="the-best-defense-passive"></a><a href="#the-best-defense-passive" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Best Defense... (Passive)</h6>
+<p>Doomfist's Passive is the engine behind what makes Doom tanky. This forces Doom to be aggressive and rewards him for getting value. When initially reworked into a Tank, his passive recieved no changes to reflect the new role change.</p>
+<ul>
+<li>Generates 30 Overhealth per enemy hit with abilities.</li>
+<li>Now while using an ability, Doom recieves a 30% damage reduction.</li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="primary-fire"></a><a href="#primary-fire" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Primary Fire</h6>
+<p>The Primary Fire also retained a lot of functionality between reworks. In the effort to further push the Fighting Game iconography and push Doomfist to be more inline with the less mechanically intensive existing Tanks, the primary fire pellets should be enlarged and shrink as they fall-off.</p>
+<ul>
+<li>Now visually resemble a singular Hudeken before individual pellets begin shrinking.</li>
+<li>Larger pellet Hitboxes</li>
+<li>Shrink as they travel over distance</li>
+<li>7 pellets total</li>
+<li>10 damage per pellet</li>
+<li>Can no longer headshot</li>
+<li>Deals increased damage against armor (16- Torb's Molten Core Ultimate is a 1.6x multiplier)</li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="rocket-punch-2"></a><a href="#rocket-punch-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rocket Punch</h6>
+<p>Removing the One-Shot potential of Punch was a necessary evil. Multi-Punch was also a good way to justify the redistribution of damage, and focus the &quot;skill&quot; of the ability closer to hitting close groups as opposed to loners. One of my favorite patches to Overwatch 1 included a change to the direction that Rocket Punch generated velocity (Multidirectional Punch). Multidirectional Punch generates an additional &quot;skill ceiling&quot; dimension to the ability, and forms a &quot;skill-consistency&quot; with the highly-skilled, map-knowledge, and position-based &quot;Diagional Punch&quot; ability. Diagional Punch involves the expliotation of map-geometry to force a &quot;ledge&quot; slightly below or above the hitbox of Rocket Punch creating the relevant upward or downward punch (based on position relative to ledge) while avoiding hitting the wall and stopping the Punch in its tracks. Now exclusive to Overwatch 2, Doomfist also can cancel his Seismic Slam by charging his Rocket Punch (Maintaining momentum) while mid-air; potentially a perfectly timed movement arc to allow a mid-air character to be punched (Which also is extremely skill-dependent).</p>
+<table>
+<thead>
+<tr><th>Attribute</th><th>Minimum Charged</th><th>Maximum Charged</th></tr>
+</thead>
+<tbody>
+<tr><td>Impact Damage</td><td>30</td><td>50</td></tr>
+<tr><td>Wall Slam Damage</td><td>2x</td><td>2x</td></tr>
+<tr><td>Wall Slam Falloff</td><td>begins 0.2s after impact</td><td>begins 0.2s after impact</td></tr>
+<tr><td>Move Speed (Doomfist)</td><td>44 meters per second</td><td>44 meters per second</td></tr>
+<tr><td>Move Speed (Enemies)</td><td>15 meters per second (10.5m for Tanks)</td><td>35 meters per second (24.5m for Tanks)</td></tr>
+<tr><td>Max Range (Doomfist)</td><td>~6.4 meters</td><td>20 meters</td></tr>
+<tr><td>Max Range (Enemies)</td><td>6 meters</td><td>14 meters</td></tr>
+<tr><td>Duration (Impact Stun)</td><td>0.4 seconds</td><td>0.4 seconds</td></tr>
+<tr><td>Duration (Wall Slam Stun)</td><td>0.25 seconds (0 after 0.2 seconds)</td><td>0.5 seconds (0.25 after 0.2 seconds)</td></tr>
+</tbody>
+</table>
+<ul>
+<li>Rocket Punch damage is 30 - 50.</li>
+<li>Wall Slam damage is also 30 - 50. (Rocket Punch damage is doubled by Wall Slam essentially)
+<ul>
+<li>Wall Slam damage has fall-off based on distance knocked back: -20 at furthest knockback distance possible.
+<ul>
+<li>Fully Charged Punch = 50, Wall Slam at furthest possible distance = 30.</li>
+<li>Only enemies that are wall slammed before fall off can be applied- will be stunned.</li>
+</ul></li>
+</ul></li>
+<li>Rocket Punch cooldown is 3 seconds.</li>
+<li>0.5s stun applied to targets that wall slam before passing</li>
+<li>Rocket Punch now functions consistently gliding along the ground (Doomfist always maintains a constant height above the ground during Punch, and will not be launched off of slopes or when jumping. He will still be launched off ledges.)</li>
+<li>Mid-Air Multidirectional Punch
+<ul>
+<li>When above a height threshold (Piledriver), Rocket Punch travels freely in the direction the camera is facing.</li>
+</ul></li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="empowered-punch"></a><a href="#empowered-punch" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Empowered Punch</h6>
+<ul>
+<li>Empowered Punch damage multiplier increased to 100% (from 50%)</li>
+<li>Empowered Punch knockback radius is 4 meters (Season 1)</li>
+<li>Empowered Punch wall slam stun time is 0.5s - 1s (Season 1)</li>
+<li>Empowered Punch will punch Sigma's Accretion, and send it in the direction he is punching, as well as only affect Doomfist's enemies.</li>
+<li>Empowered Punch will punch D.va's Bomb, and send it in the direction he is punching.</li>
+<li>Empowered Punch will prevent Doomfist from being knocked-down unless it is another Empowered Punch.
+<ul>
+<li>The target will still be knocked-down and neaby enemies within the knockback radius will be knocked back as normal.</li>
+</ul></li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="multi-punch-rework"></a><a href="#multi-punch-rework" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multi Punch rework</h6>
+<p>The AoE effect for Rocket Punch is unintuitive. When Team 4 released showcases of AI enemies knocking each other back for PvE, I had assumed that this was the technology begin used for Doom's Empowered Punch AoE mechanic. However, when an enemy is impacted by Punch, and AoE cone is created that instantaneously is applied to all enemies within it. I disagree with this implementation and would rather see a use of additional knockback instead being generated from collision with the initially knocked-back players.</p>
+<p><a href="https://youtube.com/clip/UgkxoVnAyZlTP4PR7gj-YAKg9n8riT5ggves"><img src="https://img.youtube.com/vi/lRj-GotnNaQ/maxresdefault.jpg" alt="Chain Hit Reactions"></a></p>
+<h6><a class="anchor" aria-hidden="true" id="uppercut-and-seismic-slam"></a><a href="#uppercut-and-seismic-slam" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Uppercut And Seismic Slam</h6>
+<p>Uppercut was an essential ability reference to Fighting genre style games and the third ability required for a diverse combo-set, but restoring this ability and removing Power Block removes the previous solution for Doomfist's &quot;skill-based&quot; build-up for a One-Shot ability. This rework is the least drastic revert to Doomfist's ability kit (As opposed to re-enabling the third ability input to be Uppercut).</p>
+<ul>
+<li>Rework Seismic Slam to deal 50 damage and perform the Uppercut animation on lift off at an appropriate camera dependent angle.
+<ul>
+<li>I want current Slam with cancellability, and current momentum when canceled.</li>
+<li>The only change would be a straighter beginning upward arc while performing old Uppercut animation (but overall the same movement arc).</li>
+</ul></li>
+<li>Add knockback to enemies when activated in a similar, but much reduced, arc to Doom's Movement arc.
+<ul>
+<li>Enemies should be beneath Doomfist, not the same height, after finishing the Uppercut animation.</li>
+</ul></li>
+<li>Put the ability on Cooldown when activated for 6 seconds.</li>
+<li>Add an additional 6 seconds if Doomfist lands without canceling the ability (Performing the Slam).</li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="power-block-2"></a><a href="#power-block-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Power Block</h6>
+<p>Power Block is objectively a terrible defensive abilty for a &quot;Tank&quot; character to have. It is selfish and does not protect teammates, and the only excellent part is powering up when it is successful. Power Block instead will be seperated into two seperate abilites- Block and Parry.</p>
+<ul>
+<li>Activating Power Block will first activate Power Parry, as detailed below, then will Block as normal.</li>
+<li>Power Block has a 3s Cooldown (Same as Punch)</li>
+<li>Power Block has an infinite Duration (Rammatra Block)</li>
+<li>Power Block now mitigates 20% frontal damage (stacks with 30% passive)</li>
+<li>Power Block now extends around Doom's sides (More forgiving and consistent mitigation, Less forgiving back exposure)</li>
+<li>Power Block removes line-of-sight for players behind Doomfist during Power Block.</li>
+<li>Power Block now body-blocks damage from attacks.
+<ul>
+<li>Ashe's Bob, and Torbjorn's turret can no longer shoot through Doomfist while Power Blocking. (Likely a bug regardless, When targeting other players; turrets will fire bullets that pass through Doomfist. This will no longer be the case.)</li>
+<li>Rein will shatter Doomfist, but his shatter will be body-blocked for players behind Doom.</li>
+<li>D.Va's Self-Destruct ultimate will be body-blocked by Doomfist during Power Block.</li>
+</ul></li>
+<li>Power Block now reduces damage from sticky bombs.</li>
+<li>Power Block now reduces damage from all Damage-Over-Time effects.</li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="power-parry"></a><a href="#power-parry" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Power Parry</h6>
+<p>Power Parry would be able to grab Orisa's Javelin, Hog's Hook, Queen's Knife and any other projectiles classified as &quot;Melee&quot; for the duration of that &quot;Frame perfect&quot; block.</p>
+<ul>
+<li>Current Power Block on damaged effects are only played during Power Parry, but he will always perform the animation of covering his head-hitbox.</li>
+<li>Power Parry duration is 0.7s</li>
+<li>Power Parry blocks 100% frontal damage (30% of damage recieved converted into Overhealth)</li>
+<li>Power Parry successfully blocking 125 damage will end the current Power Block, granting Empowered Punch, and delay Power Block's cooldown for 1 second.
+<ul>
+<li>Successfully obtaining Empowered Punch will put Rocket Punch off Cooldown if it is on Cooldown.</li>
+</ul></li>
+<li>Power Parry successfully reflecting a &quot;Melee Projectile&quot; ends the current Power Block and delays the cooldown for Power Block for 1 second.</li>
+<li>Power Parry Duration cuts in half for each success until 0.0166 seconds. Duration is reset when Power Block goes on cooldown.</li>
+<li>Power Parry has an ability reflection effect for duration (Doom catches Hog's hook and pulls him, catches Orisa's Javelin and throws it, catches Queen's Jagged Blade and throws it)
+<ul>
+<li>Reflect cast-time is performed during Power Parry's duration. So Cooldown is delayed for 1 second AFTER performing the reflect.</li>
+<li>Empowered Punch is only granted from blocking the damage threshold- not from reflecting a projectile.</li>
+</ul></li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="meteor-strike-1"></a><a href="#meteor-strike-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Meteor Strike</h6>
+<p>This has been the hardest part of Doomfist's kit to rethink for a better fit for him in his new Tank role. Meteor Strike has been a long standing joke of an ultimate  (ult) ability; boasting a high damage center, but a significant fall-off damage toward the edges. Initially, this ult landed too quickly resulting in &quot;free&quot; kills against no-mobility supports, but as the landing speed slowed and cooldown reduction effects were added, the ultimate slowly became a &quot;tempo&quot; ability that was reserved as a &quot;get-out-of-jail card&quot; that allowed Doomfist to expend all his abilities and then choose to escape the fight or stay with renewed cooldowns (And maybe recieve a kill). Tankfist has tacked on a slow effect while not changing anything else about the ability. Removing the ability from being tied to the ultimate allows it to be weaker overall (although more niche to obtain) but create a miniture arena cut-off from most enemies. Creates division in the enemy team, sets up walls for potential punch wall slams and a relatively safe opening to potentially use his new ultimate without getting cancelled.</p>
+<p>Functionality Changes:</p>
+<ul>
+<li>Creates a ring of debris (functions similar to Mei's Ice Wall) that is jump height (must be climbed over, too high to Hook or Javelin Doomfist inside.), and has a radius around the total area affected.
+<ul>
+<li>Debris Health:
+<ul>
+<li>250 per pillar (See Mei Wall for reference)</li>
+<li>8 pillars</li>
+</ul></li>
+<li>Debris lasts up to 5 seconds</li>
+</ul></li>
+<li>Now Pins any (mid-air or otherwise) heros inside the inner ring underneath Doomfist when casting.</li>
+<li>Outer ring is now a singular value for damage regardless of distance: 75 Damage</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="my-fantasy-rework"></a><a href="#my-fantasy-rework" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>My fantasy rework</h4>
+<h6><a class="anchor" aria-hidden="true" id="power-block-fanatasy-change"></a><a href="#power-block-fanatasy-change" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Power Block (Fanatasy Change)</h6>
+<p>Power Block is not a hated ability by my terms at all and moving the ability to the backward input is another callback to the &quot;Fighting-Game&quot; genre in which characters would &quot;block&quot; when walking backward and performing a &quot;frame-perfect&quot; block resulted in a 100% damage mitigation for that attack.</p>
+<ul>
+<li>Move Power Block to the backward input</li>
+<li>Power Block must be activated again by letting go and then holding the backward input again to reactivate Power Parry. If Power Block is not reactivated within the 2 second window then Power parry will go on cooldown.</li>
+</ul>
+<p>Uppercut combined with Seismic Slam and Power Block moved to a different input creates an opening for a new ability for Doomfist. This third ability should harken back to the fighting game genre, open Doomfist's gameplay kit up to a more diverse combo set, and most importantly be an offensive related ability that activates his passive for more survivability.</p>
+<h6><a class="anchor" aria-hidden="true" id="hurricane-kick-fantasy-change-ability-to-replace-power-block"></a><a href="#hurricane-kick-fantasy-change-ability-to-replace-power-block" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hurricane Kick (Fantasy Change) (Ability to replace Power Block)</h6>
+<p>I would rather not insert my own creative abilities into Doomfist's kit, but the combination of the inclusion of Uppercut into the execution of Seismic Slam, and the removal of Power Block from a traditional ability input leaves a gapping hole to be filled by a third ability to combo with. Seismic Slam potentially can have a cooldown as long as 12 seconds with the two seperate functions of it adding 6 seconds a piece to the cooldown; leaving Doomfist with a significant amount of downtime. This ability also suggests more toward Doom's martial arts capability as opposed to flashy technology creating massive AoE attacks.</p>
+<blockquote>
+<p>Hadoken, Shoryuken, Tatsumaki Senpuu Kyaku, otherwise known as Fireball, Dragon Punch, and Hurricane Kick, are easily the three most known moves in fighting game history, and as such, neither can be said to take precedence over the rest. These moves, comprising the toolset of Ryu and Ken from Street Fighter II, are what most current day fighting game move-sets are based around. They defined the projectile, the reversal, and expansion/pressure move, so much so, that the motions used to execute these moves have been codified as “Fireball” and “Dragon Punch” motions. If it weren’t for these three moves, we wouldn’t have fighting games to play in the first place. <sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup></p>
+</blockquote>
+<blockquote>
+<p>The practitioner jumps and, while in the air, rotates their legs, kicking the opponent 1~3 times depending on button pressed. It is usually performed by moving the joystick or D-pad a quarter circle backwards the opponent from the down position, then pressing a kick button. The Tatsumaki, in some games, will lift the user high enough to fly over projectiles, such as the Hadoken, Sonic Boom, Soul Spark and Yoga Fire. <sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup></p>
+</blockquote>
+<p><em>Doomfist leaps up and launches up to 3 consecutive kicks forward, maintaining altitude.</em></p>
+<ul>
+<li>Aim type: Melee</li>
+<li>25 damage (75 maximum)</li>
+<li>Duration: 0.5 seconds (1.5 maximum)
+<ul>
+<li>0.208 seconds (dealing damage) (Reinhardt Swing for referrence)</li>
+</ul></li>
+<li>Cooldown: 8 seconds</li>
+<li>Stops current momentum</li>
+<li>Applies self-movement in camera direction (each kick)</li>
+<li>Ignores gravity for duration</li>
+<li>Can perform a single Primary fire between kicks</li>
+<li>Knocksback enemies toward next kick</li>
+<li>Activates Passive with each unique enemy hit during duration (Landing 3 kicks on a single target only grants 30 Overhealth)</li>
+</ul>
+<p>This is not an ability that I am particularly proud of (Blizzard likely isn't looking to bloat Doomfist's kit with a ton of different abilities), but this seemed like a preferable route to maintain the removal of Uppercut as a seperate ability and also refrain from removing any of Doomfist's current abilities. This also gives an additional tool for Doomfist in his Combo set.</p>
+<h6><a class="anchor" aria-hidden="true" id="is-the-best-offense-fantasy-change-ultimate-replacement"></a><a href="#is-the-best-offense-fantasy-change-ultimate-replacement" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>...Is The Best Offense. (Fantasy Change) (Ultimate replacement)</h6>
+<p>Doomfist's new ultimate ability is named in referrence to his passive ability &quot;The Best Defense...&quot; and seeks to provide the previous functionality of Meteor Strike without taking him out of the fight, maintaining his ability tempo, and giving him a chance to be stunned while offering a higher sense of impact in the team fight.</p>
+<p>During Casting:</p>
+<ul>
+<li>Can be interrupted during cast time, but cannot be interrupted afterward.</li>
+<li>Cast time is 0.9 seconds.
+<ul>
+<li>&quot;Come at me!&quot;</li>
+<li>Grants Empowered Punch after casting and refunds Rocket Punch if on cooldown.</li>
+<li>Passive Maximum Temporary Health increased to 900</li>
+<li>Passive Overhealth generates at 100 health per 0.1 seconds for 0.9 seconds
+<ul>
+<li>Does not decay during cast time.</li>
+<li>Overhealth default functionality is restored on Ultimate end.</li>
+</ul></li>
+<li>Cannot move or perform abilities during cast (maintains momentum)</li>
+<li>Can activate to cancel other abilities</li>
+</ul></li>
+</ul>
+<p>After Casting:</p>
+<ul>
+<li>Duration is 11 seconds.</li>
+<li>While Doomfist has Overhealth during his ultimate:
+<ul>
+<li>Doomfist’s ability cooldown rates are accelerated by 100%.</li>
+<li>Rocket Punch charges 50% faster and abilities deal 50% more damage.</li>
+</ul></li>
+<li>Passive Changes:
+<ul>
+<li>Maintains Maximum temporary health of 900 for 11 seconds</li>
+<li>Increases Overhealth generated by abilities to 75 for each enemy hit.</li>
+<li>Overhealth decay delay is now 0.1 seconds
+<ul>
+<li>Dealing more ability damage will reset this condition.</li>
+</ul></li>
+<li>Overhealth decay rate is 100 health per second</li>
+</ul></li>
+</ul>
+<h6><a class="anchor" aria-hidden="true" id="wait-what-would-happen-to-meteor-strike-then"></a><a href="#wait-what-would-happen-to-meteor-strike-then" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wait, what would happen to Meteor Strike then?</h6>
+<ul>
+<li>No longer considered an ultimate</li>
+<li>This ability has been moved to a Empowered Fully-Charged Mid-Air Downward Punch.</li>
+<li>Ability Cooldown reduction removed.</li>
+<li>No longer grants an Empowered Punch upon landing</li>
+<li>No longer has a cast time</li>
+<li>Functions similarly to Wrecking Ball's Piledriver (Charge time replaces cast time)</li>
+<li>Enemies are now grounded instead of slowed</li>
+</ul>
+<p>Statistic Changes:</p>
+<ul>
+<li>Enemies in the Inner Ring are knocked down for 0.75 seconds (Fully-charged-punch wall-slam stun time)</li>
+<li>Enemies are grounded for 4 seconds.</li>
+<li>Damage:
+<ul>
+<li>Inner Ring: 160 (Empowered-Punch Fully-Charged plus wall-slam damage)</li>
+<li>Outer Ring: 80 (Half the Inner-ring's damage) (Single value, regardless of distance.)</li>
+</ul></li>
+<li>Falloff range: 2 - 8 meters.</li>
+<li>Area-Of-Effect:
+<ul>
+<li>Inner Ring: 2 meters</li>
+<li>Outer Ring: 6 meters</li>
+<li>Overall Diameter: 8 meters</li>
+</ul></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="conclusion"></a><a href="#conclusion" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<p>The rework from Damage to tank has fixed a multitude of player frustrations when playing against Doomfist, but has lost his identity of a combo-centric fighting game character.
+From his multitude of buggy-interactions (Not sure this was the part of Damage Doom's kit players wanted to see carried over to Tank Doom), the removal of a significant combo ability that was a referrence to the fighting game genre, and the nonexistence of utility within the newly added Power Block outside of Empowered Punch created a hidden &quot;weak-implementation&quot; to the character's gameplay.
+Design-wise, Tank Doomfist would appear hinted at being significantly stronger, but during actual gameplay, Doomfist maintains his standing of weaker amoung his fellow peers within the same role.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1"  class="footnote-item"><p><a href="https://www.gamespot.com/articles/overwatch-devs-explain-why-terry-crews-isnt-doomfi/1100-6451946/">Doomfist designed as homage to fighting genre</a> <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2"  class="footnote-item"><p><a href="https://overwatch.blizzard.com/en-gb/news/23798984/legend-of-talon-and-hero-of-numbani-doomfist-and-orisa-s-tank-overhauls/">Doomfist tank rework to keep combo style</a> <a href="#fnref2" class="footnote-backref">↩</a> <a href="#fnref2:1" class="footnote-backref">↩</a> <a href="#fnref2:2" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3"  class="footnote-item"><p><a href="https://docs.google.com/document/d/1mF6gpd7oTi9YX6B45tngsy1NNPetV2FXzk9P-mbvmk0/edit">Season 1 Midseason patch Doomfist Current Bug List: u/Cream-Shpee/Crème?! &amp; GetQuakedOn</a> <a href="#fnref3" class="footnote-backref">↩</a> <a href="#fnref3:1" class="footnote-backref">↩</a> <a href="#fnref3:2" class="footnote-backref">↩</a> <a href="#fnref3:3" class="footnote-backref">↩</a> <a href="#fnref3:4" class="footnote-backref">↩</a> <a href="#fnref3:5" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn4"  class="footnote-item"><p><a href="https://www.polygon.com/23353371/overwatch-2-battle-pass-hero-unlocks-balance-switching">Less hard-counters in Overwatch 2</a> <a href="#fnref4" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn5"  class="footnote-item"><p><a href="https://arcadesushi.com/most-iconic-fighting-game-moves-5-1/">The Shoto Three</a> <a href="#fnref5" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn6"  class="footnote-item"><p><a href="https://streetfighter.fandom.com/wiki/Tatsumaki#:~:text=The%20Tatsumaki%20(%E7%AB%9C%E5%B7%BB%2C%20%E2%80%9CDragon,that%20use%20the%20same%20style)">Hurricane Kick Executions</a> <a href="#fnref6" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/tech-portfolio/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#dps-doomfist">DPS Doomfist</a><ul class="toc-headings"><li><a href="#dps-issues">DPS issues</a></li></ul></li><li><a href="#tank-doomfist">Tank Doomfist</a><ul class="toc-headings"><li><a href="#tank-playstyle">Tank playstyle</a></li><li><a href="#tank-issues">Tank Issues</a></li><li><a href="#issues-conclusion">Issues conclusion</a></li></ul></li><li><a href="#solutions">Solutions</a><ul class="toc-headings"><li><a href="#other-peoples-suggestions">Other people's suggestions</a></li><li><a href="#the-overwatch-teams-solution">The Overwatch Team's solution</a></li><li><a href="#my-suggestions">My suggestions</a></li></ul></li><li><a href="#conclusion">Conclusion</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="social"><a href="https://www.linkedin.com/in/brandon-biggs-1b41b619a" target="_blank" class="social"><img alt="LinkedIn" src="/tech-portfolio/img/linkedin.svg"/></a><a href="https://twitter.com/quartztreasured" target="_blank" class="social"><img alt="Twitter" src="/tech-portfolio/img/twitter.svg"/></a><a href="https://youtube.com/channel/UCQMEFFyh7j9Xju0LF8d_E3w" target="_blank" class="social"><img alt="YouTube" src="/tech-portfolio/img/youtube.svg"/></a><a href="https://github.com/waketechbrandon" target="_blank" class="social"><img alt="GitHub" src="/tech-portfolio/img/github.svg"/></a></section><section class="copyright">Copyright © 2023 Brandon M. Biggs. Created with Docusaurus.</section></footer></div></body></html>

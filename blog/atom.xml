@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://WakeTechBrandon.github.io/tech-portfolio/blog</id>
+    <title>Brandon M. Biggs Blog</title>
+    <updated>1970-01-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://WakeTechBrandon.github.io/tech-portfolio/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Brandon M. Biggs news and events.</subtitle>
+    <logo>https://WakeTechBrandon.github.io/tech-portfolio/undefined</logo>
+    <rights>Copyright © 2023 Brandon M. Biggs</rights>
+    <entry>
+        <title type="html"><![CDATA[Overwatch 2 New Lead Developer]]></title>
+        <id>https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/5/11/Overwatch-2-New-Lead-Developer.html</id>
+        <link href="https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/5/11/Overwatch-2-New-Lead-Developer.html"/>
+        <updated>1970-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1><a class="anchor" aria-hidden="true" id="prompt"></a><a href="#prompt" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prompt</h1>
+<p>You are now the lead developer of Overwatch, what changes do you make?</p>
+]]></summary>
+        <author>
+            <name>Brandon M. Biggs</name>
+            <uri>https://waketechbrandon.github.io/tech-portfolio/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overwatch Matchmaking]]></title>
+        <id>https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/05/01/Overwatch-Matchmaking.html</id>
+        <link href="https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/05/01/Overwatch-Matchmaking.html"/>
+        <updated>2023-05-01T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1><a class="anchor" aria-hidden="true" id="overwatch-2"></a><a href="#overwatch-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overwatch 2</h1>
+<p>Match-Making-Rating (MMR) is an indicator used for a player's skill relative to all other players.
+MMR, as of Season 4, directly corrolates to a player's visible rank after recieving a rank update.</p>
+]]></summary>
+        <author>
+            <name>Brandon M. Biggs</name>
+            <uri>https://waketechbrandon.github.io/tech-portfolio/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sojourn Railgun]]></title>
+        <id>https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/03/09/Overwatch-Sojourn-Railgun.html</id>
+        <link href="https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/03/09/Overwatch-Sojourn-Railgun.html"/>
+        <updated>2023-03-09T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1><a class="anchor" aria-hidden="true" id="overwatch-2"></a><a href="#overwatch-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overwatch 2</h1>
+<p>The introduction of a railgun type weapon into Overwatch's cast of hero abilities came with it's own set of difficulties and new problems.<br>
+High level players were forced into using this character for the purpose of abusing the One-Shot mechanic that was easy to obtain, hit, and a hero kit built around the ability.<br>
+At 1 charge, the hitbox was akin to pixel perfect (Widowmaker for instance) and as charge built up to 100 the hitbox grew to the same size as Hanzo's projectile arrows.<br>
+Having a hitscan (instant travel time and unaffected by gravity) weapon that also had a hitbox size of a projectile that One-Shot heros while also having a difficult character hitbox, high mobility, and a utility ability to flush players out from corners was insanely broken.<br>
+How should it function instead?</p>
+]]></summary>
+        <author>
+            <name>Brandon M. Biggs</name>
+            <uri>https://waketechbrandon.github.io/tech-portfolio/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overwatch 2 Monetization]]></title>
+        <id>https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/01/23/Overwatch-Monetization.html</id>
+        <link href="https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/01/23/Overwatch-Monetization.html"/>
+        <updated>2023-01-23T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1><a class="anchor" aria-hidden="true" id="overwatch-2"></a><a href="#overwatch-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overwatch 2</h1>
+]]></summary>
+        <author>
+            <name>Brandon M. Biggs</name>
+            <uri>https://waketechbrandon.github.io/tech-portfolio/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Passionate Love letter to an Abusive Game]]></title>
+        <id>https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/01/07/Overwatch-A-Passionate-Love-Letter-To-An-Abusive-Game.html</id>
+        <link href="https://WakeTechBrandon.github.io/tech-portfolio/blog/2023/01/07/Overwatch-A-Passionate-Love-Letter-To-An-Abusive-Game.html"/>
+        <updated>2023-01-07T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1><a class="anchor" aria-hidden="true" id="overwatch"></a><a href="#overwatch" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overwatch</h1>
+<p>Overwatch is a team-based hero-shooter that released as a skeleton of a game and has been gradually developed into a welcoming AAA title.
+The artistic style of the game is spot-on beautiful, and the lore allows for diversity in the roster to the point of a grizzeled old military veteren playing alongside a tesla-toting Gorilla and a cyborg ninja.
+In no other game before this would one even remotely imagine playing a First-Person game with this diverse a roster with unique abilities, sizes, weapons, and movement capabilities.
+Who could possibly turn down an invitation into such an inviting world; featuring such intense and diverse gameplay?</p>
+]]></summary>
+        <author>
+            <name>Brandon M. Biggs</name>
+            <uri>https://waketechbrandon.github.io/tech-portfolio/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doomfist's Identity]]></title>
+        <id>https://WakeTechBrandon.github.io/tech-portfolio/blog/2022/12/5/Overwatch-2-Gameplay-Hero-Doomfist-Philosophy.html</id>
+        <link href="https://WakeTechBrandon.github.io/tech-portfolio/blog/2022/12/5/Overwatch-2-Gameplay-Hero-Doomfist-Philosophy.html"/>
+        <updated>1970-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1><a class="anchor" aria-hidden="true" id="overwatch-2"></a><a href="#overwatch-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overwatch 2</h1>
+<p>The long awaited sequel to Overwatch, boasting robust Player-Versus-Enemy (PvE) missions has entered &quot;Early-Access.&quot;
+Releasing the Player-Versus-Player (PvP) experience worldwide without the PvE content.
+Essentially, Overwatch 2 is a direct engine update to the original and a PvP format change from 6-Players-Versus-6-Players (6v6) to 5-Players-Versus-5-Players (5v5).
+The original intention behind the transition from 6v6 to 5v5 was <em>Queue Times</em>, <em>Individual Agency</em>, and <em>Visual Clutter</em>.
+Amoung the many different systematic, role-specific, and individual hero changes established between the original Overwatch and the sequel; One hero in particular was moved to a different role.
+This character was: Doomfist.</p>
+]]></summary>
+        <author>
+            <name>Brandon M. Biggs</name>
+            <uri>https://waketechbrandon.github.io/tech-portfolio/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mercy's Problematic Design]]></title>
+        <id>https://WakeTechBrandon.github.io/tech-portfolio/blog/2022/12/17/Overwatch-2-Gameplay-Hero-Mercy.html</id>
+        <link href="https://WakeTechBrandon.github.io/tech-portfolio/blog/2022/12/17/Overwatch-2-Gameplay-Hero-Mercy.html"/>
+        <updated>2022-12-17T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1><a class="anchor" aria-hidden="true" id="overwatch-2"></a><a href="#overwatch-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overwatch 2</h1>
+<p>Mercy was designed as a Gateway character into the First-Person-Shooter (FPS) genre, allowing even newcomers to video games, or FPS in general, to have an impact in a multiplayer match.
+Amoung the more difficult heros to play, there are easier alterantives so even the average (or below) can still join the community and have fun playing the game.
+This becomes problematic when low-skill heros output more value than high-skill heros, afterall why play a more difficult hero if you cannot get more value than an easier hero?</p>
+]]></summary>
+        <author>
+            <name>Brandon M. Biggs</name>
+            <uri>https://waketechbrandon.github.io/tech-portfolio/</uri>
+        </author>
+    </entry>
+</feed>
