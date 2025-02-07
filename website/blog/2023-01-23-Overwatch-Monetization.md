@@ -7,10 +7,6 @@ title: Overwatch 2 Monetization
 
 # Overwatch 2
 
-Mercy was designed as a Gateway character into the First-Person-Shooter (FPS) genre, allowing even newcomers to video games, or FPS in general, to have an impact in a multiplayer match.
-Amoung the more difficult heros to play, there are easier alterantives so even the average (or below) can still join the community and have fun playing the game.
-This becomes problematic when low-skill heros output more value than high-skill heros, afterall why play a more difficult hero if you cannot get more value than an easier hero?
-
 <!--truncate-->
 
 Overwatch 2 is not cunsumer-friendly
