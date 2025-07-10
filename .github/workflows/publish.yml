@@ -13,11 +13,6 @@ jobs:
     container:
       image: joatmon08/tech-portfolio
     steps:
-    - name: wtf is going on
-      run: |
-        node --version
-        npm install -g npm
-        npm install -g node
     - uses: actions/checkout@v2
     - name: Install dependencies and static website
       run: |
