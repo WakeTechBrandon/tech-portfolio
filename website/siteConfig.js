@@ -82,10 +82,6 @@ const siteConfig = {
         '${baseurl}en/characters/overwatch/creed',
         '${baseurl}en/characters/overwatch/waylen',
     ],
-    
-    stylesheets : [
-        
-    ]
 };
 
 module.exports = siteConfig;
