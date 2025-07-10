@@ -4,38 +4,24 @@
 name: Publish Portfolio to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: [ main ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
-  # Single deploy job since we're just deploying
   build:
-    name: Build Docusaurus
     runs-on: ubuntu-latest
+    container:
+      image: joatmon08/tech-portfolio
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: yarn
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Build website
-        run: yarn build
-      - name: Push to Github Pages branch
-        run: |
-          cd website/build/tech-portfolio
-          touch .nojekyll
-          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} INPUT_DIRECTORY=$(pwd) publish.sh
+    - uses: actions/checkout@v2
+    - name: Install dependencies and static website
+      run: |
+        cd website
+        yarn install
+        yarn build
+    - name: Push to Github Pages branch
+      run: |
+        cd website/build/tech-portfolio
+        touch .nojekyll
+        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} INPUT_DIRECTORY=$(pwd) publish.sh
+        

@@ -78,10 +78,14 @@ const siteConfig = {
     // repoUrl: 'https://github.com/facebook/test-site',
     
     wrapPagesHTML: true,
-    // seperateCss: [
-        // '${baseurl}en/characters/overwatch/creed',
-        // '${baseurl}en/characters/overwatch/waylen',
-    // ],
+    seperateCss: [
+        '${baseurl}en/characters/overwatch/creed',
+        '${baseurl}en/characters/overwatch/waylen',
+    ],
+    
+    stylesheets : [
+        
+    ]
 };
 
 module.exports = siteConfig;
