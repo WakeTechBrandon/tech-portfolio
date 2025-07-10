@@ -10,8 +10,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: joatmon08/tech-portfolio
+    # container:
+      # image: joatmon08/tech-portfolio
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies and static website
